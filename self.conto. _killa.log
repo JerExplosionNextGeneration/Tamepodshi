@@ -489,10 +489,6 @@ block return out proto tcp from any to 103.4.96.0/22
 block return out proto udp from any to 103.4.96.0/22
 block return out proto tcp from any to 69.63.176.0/20
 block return out proto udp from any to 69.63.176.0/20
-block return out proto tcp from any to 2001:4998:44:3507::8001
-block return out proto udp from any to 2001:4998:44:3507::8001
-block return out proto tcp from any to 2001:4998:44:3507::8000
-block return out proto udp from any to 2001:4998:44:3507::8000
 block return out proto tcp from any to 2001:4998:124:1507::f001
 block return out proto udp from any to 2001:4998:124:1507::f001
 block return out proto tcp from any to 2001:4998:124:1507::f000
@@ -507,10 +503,6 @@ block return out proto tcp from any to 74.6.143.26
 block return out proto udp from any to 74.6.143.26
 block return out proto tcp from any to 2001:4998:124:1507::f000
 block return out proto udp from any to 2001:4998:124:1507::f000
-block return out proto tcp from any to 2001:4998:44:3507::8001
-block return out proto udp from any to 2001:4998:44:3507::8001
-block return out proto tcp from any to 2001:4998:44:3507::8000
-block return out proto udp from any to 2001:4998:44:3507::8000
 block return out proto tcp from any to 2001:4998:124:1507::f001
 block return out proto udp from any to 2001:4998:124:1507::f001
 block return out proto tcp from any to 74.6.231.20
@@ -557,14 +549,6 @@ block return out proto tcp from any to 199.232.65.2
 block return out proto udp from any to 199.232.65.2
 block return out proto tcp from any to 23.67.105.2
 block return out proto udp from any to 23.67.105.2
-block return out proto tcp from any to 2001:4998:44:3507::8001
-block return out proto udp from any to 2001:4998:44:3507::8001
-block return out proto tcp from any to 2001:4998:24:120d::1:0
-block return out proto udp from any to 2001:4998:24:120d::1:0
-block return out proto tcp from any to 2001:4998:124:1507::f000
-block return out proto udp from any to 2001:4998:124:1507::f000
-block return out proto tcp from any to 2001:4998:44:3507::8000
-block return out proto udp from any to 2001:4998:44:3507::8000
 block return out proto tcp from any to 2001:4998:24:120d::1:1
 block return out proto udp from any to 2001:4998:24:120d::1:1
 block return out proto tcp from any to 2001:4998:124:1507::f001
@@ -809,4 +793,7 @@ Removed anchor file successfully.
 
 Migrating settings to new system...
 
-===SelfControl-Killer complete!===
+===self.conto_killa complete!===
+
+
+(strArr[x..<y]).map(String.init)
