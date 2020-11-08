@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028EA85B7C5CD2696CDAB3760530C505 /* InputDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB73CA3CF6229938667A30F9CF74E12 /* InputDataType.swift */; };
+		0291CFA4B6BF4B9F133AF4C21E29863B /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5DA1916E4BE5ACE9BAC15E17AFEA6 /* FFT.swift */; };
+		02CCD935ABEDE0D89AEF3B5FB5EAE14E /* Span.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657979A41AD7F59AA77EAC9DBBF629E9 /* Span.swift */; };
+		0387E0A122F531F4460636F11183237F /* TensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508460F523CB718821BD35C8B5C321A6 /* TensorType.swift */; };
+		0BEB54F333AA60674259C3EF55D86F89 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F21762091B7BF8109E86C862A99C /* Trigonometric.swift */; };
+		0E143B9DF8BEBF58B2CB255B2201D96B /* Upsurge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E644D149B3937E2F6F387445FA7965C0 /* Upsurge.framework */; };
+		1FD9CA25754639C2B3255ED8AC5D9FB0 /* Upsurge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F439F90DAF30A846F1A419AD5FF7A3 /* Upsurge-dummy.m */; };
+		20BE41B924734193B165502A217DDDE7 /* LassoRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B2806F0D2B0DA9BDEAB5E0D1369F54 /* LassoRegression.swift */; };
+		23F4027508B4ED20561B327CA383E799 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC31D1952DAE110660ECC08854A9A53 /* DataManager.swift */; };
+		288E65592B48020B583BC66A5CAD0473 /* Upsurge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E7B819DFA0676F86693975DF3D7D39 /* Upsurge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C904C694F969DA6722BF705115DEE1 /* MachineLearningKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A5CB16A83BBE54C0A74D1B85AD47A0 /* MachineLearningKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379DA29BA9BA6026033D881164126FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7808993192BE58741ECB02E139358D5 /* UIKit.framework */; };
+		3AFEBF3EC75CEEC29F99728386433B3A /* SimpleLinearRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DBE659DA127AC45D7172B0F7F0E6C5 /* SimpleLinearRegression.swift */; };
+		40226BEBC5D88D42A2600F81CD8D107E /* RidgeRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B6A5148C4343658A5C758CF644E37 /* RidgeRegression.swift */; };
+		41FBC0DD39F185046FC0B39E96DB2D3B /* PolynomialRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51FBF8BEDC530ADC780608D9931EB2 /* PolynomialRegression.swift */; };
+		42E85F4AD34D74A54E5B62C993FD4771 /* LinearType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257727EF3B1D0BB17BF81350A6087AB0 /* LinearType.swift */; };
+		45EE0E3A48DED42E89C9F3DAA288AE36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414364C9AC99A45C8FA510625004870C /* Foundation.framework */; };
+		46795D4A5BDCFC742AB6AB777356BE6F /* MLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 823A2FD0C4B9E4710BBB39B5887B9BA2 /* MLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47988BA4AAF1237AB1584D555F7E59A2 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A20DAF4BA4C77BD16AB2E0DD941A080 /* DSP.swift */; };
+		48FB1DC02DB72932CACD586B8511540E /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693104E344A1FD779A8A6C1D40BF1C0 /* Interval.swift */; };
+		49B40F5FE32E6F3A7101D5F40C8BF972 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0741BCC10B56924037B671E1C35672 /* Complex.swift */; };
+		4EE2339593F6FDE10947B448DC6E5C4F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616A9173EEEB70238B6B79F0BA7D01F1 /* Accelerate.framework */; };
+		4F94371BCCF033AA304DEA2BF591F896 /* 2DTensorSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C218466DA5ECBA8B2A03114D1345E13 /* 2DTensorSlice.swift */; };
+		516F060ABD35A4D03EAF9B57709B8D4C /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A30C9AABD3E04FEA948BF3BF2900EF8 /* Matrix.swift */; };
+		54676D4F2A057D9D8EF5746EAF11787C /* KMeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D0901DB14A4BADF92E9E6C8AD5CCE /* KMeans.swift */; };
+		581FD8C706827B631A4492FC47C8C25C /* LinearOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34477E6543835A402140FCF06840CECE /* LinearOperators.swift */; };
+		5D91D62BE964DA369DB65345F369660A /* ValueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B080E76EC410E9EDBD95BC2A094DBD /* ValueArray.swift */; };
+		636CAB8E3E669BF7D97CD0E9F5626312 /* ValueArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E401BD0E51C39D1429865F82CEFEE5 /* ValueArraySlice.swift */; };
+		697C34E9B9B2B59707B1CDB8C6A1C708 /* QuadraticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D82101C2DB10B8B50468AA92CA4A1 /* QuadraticType.swift */; };
+		6E575B48D45B03922BB1E849B956FB0D /* PointerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6FC091AFD8EB59B29BB39C98EA7B29 /* PointerUtilities.swift */; };
+		6F1400B7D08E8E871F78CA8B21D7CA0E /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3603EC3E55E3A070A34195AD1C79EC7 /* Auxiliary.swift */; };
+		70295EF269B7BBCDCAEC999A5C0CE3AD /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11159FC56A205DA58AABD5E3BB1104AE /* Arithmetic.swift */; };
+		737AA532402676604B53967C9EC8B023 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E01D25BD234DAA7F42A029E56CEA5E /* Value.swift */; };
+		7F60EFB47FD3A79611EC8B909667C2E4 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B70FB7CF29253E8D950C11075B041 /* Exponential.swift */; };
+		86620C5459C18A1CE21613366D2CCA41 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B1464C70403CE7DA1DD75D55C75836 /* Hyperbolic.swift */; };
+		8A63B9DBAD09A1E1FB610A0184BCA70A /* ComplexArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFDE5274521D388D9DC84B4155952BD /* ComplexArithmetic.swift */; };
+		8C68A4D45C7F15930F087B4020AA5F12 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2F4183561F773425A09379DE65CD1 /* NeuralNetwork.swift */; };
+		8E1B857A18B295D301AD12E67C7274F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E7E0BEDD77E369FCF6816055472EC9 /* MapKit.framework */; };
+		95F348B43694269F2837204E096EE69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414364C9AC99A45C8FA510625004870C /* Foundation.framework */; };
+		9BB1218948D379DEC3CE1CE646D573F0 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77525F6AB864A64C86B104DE3C8F771 /* CSVReader.swift */; };
+		A27E0354AB11C8F5B5B2F3912759EFC5 /* ActivationFunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D2BD50139DC77446A743C99C6DE29 /* ActivationFunctionType.swift */; };
+		AE64F50E6F4B307EF4137F57029DA930 /* ComplexArrayRealSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C7C924C1A4F96BD0EB3580CF224B13 /* ComplexArrayRealSlice.swift */; };
+		B410EE1F8D01E079879219D8BFDBABC6 /* MatrixSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0B5CAAD8343CCE4C09E04AC421E5F /* MatrixSlice.swift */; };
+		B68F9EDCD94153AAE3968292C47431EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADECF0C30D03660CA800603A18A5E2 /* Extensions.swift */; };
+		BE8BD455A4DCFA909744F2730CC7E6CD /* ComplexArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DABB3E440F46642F2C165DD1F9C0DD /* ComplexArraySlice.swift */; };
+		C53C211493D379820823AE81244F7F77 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A292A5E6065BD0C9E673A6E5C1B10C2 /* Layer.swift */; };
+		CABE7C98F14F194733ECE54D38C2F7CF /* Pods-Minimalisticism-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E5E1EE6DE9EF04B6FF98C9A2BE432 /* Pods-Minimalisticism-dummy.m */; };
+		CBB583829879F181868DE508ABB25240 /* ComplexArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C403F65DC1D352882F52541FEF6773 /* ComplexArray.swift */; };
+		CD99B05D04FE6B79AE26F4E1513E3C54 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5EC7A8FB3D38E6D022964AC9E4EBEF /* Sequence.swift */; };
+		D35C2904A855147B6AA33ACEF93B126C /* MatrixArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3D90D6AA94897A991D8482375F347 /* MatrixArithmetic.swift */; };
+		D4B442479DAF45F5F8F2C3E568DECC6E /* TensorSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89485444D578A08C3E18CCD1E43FF799 /* TensorSlice.swift */; };
+		D50C56B5E4F6BDC034EDCE1DEACF6C91 /* Pods-Minimalisticism-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEE9B8BF8274D916823BC2D3D875AEB /* Pods-Minimalisticism-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9058D04677D3C307B3664ED277F91A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414364C9AC99A45C8FA510625004870C /* Foundation.framework */; };
+		DED55DF35C2F9DB2907682314983C199 /* Real.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682E4720B0121A3DBFCAD1D6F93E5FC /* Real.swift */; };
+		DF2C5EABB938E9D79639048928337928 /* Genome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41603BAE82504579BA6FAA1EA8360E /* Genome.swift */; };
+		DF6D27E2C6BA13786C2ADF7168F1F464 /* BiologicalProcessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6703BE841571BFDB98FD89AF7086714 /* BiologicalProcessManager.swift */; };
+		E1C5DA1E66227ACCFC6737BB22856FF3 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66625DC6CEE1B9443A6495CDE378BA /* Population.swift */; };
+		E3D7069660934AA9FCE42E7AF5760605 /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7921CA2A614E6B62D41DFBD577D0EECE /* Tensor.swift */; };
+		EAEE8B52B0B174DC73B0241CB128EC1B /* MachineLeanringErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E448F74972C39C54893EF57FCA5993 /* MachineLeanringErrorEnum.swift */; };
+		FF0D74EEDE7BDB0B2FB6459CB0815E93 /* MachineLearningKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 202CB1CCA98FC4BFFA146F33C96725D7 /* MachineLearningKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17DD91D3C98E9FFBD4DB94EFB8F01400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFE7CD58C2C80280F96E42DFEDC5803;
+			remoteInfo = Upsurge;
+		};
+		3BDEA06F5D9F35469AEEBA9FFE39F9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD146E4EAEF3EC13A46F66D31B949A72;
+			remoteInfo = MachineLearningKit;
+		};
+		F9410C56B936B700793E00FD89AE4A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFE7CD58C2C80280F96E42DFEDC5803;
+			remoteInfo = Upsurge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000B6A5148C4343658A5C758CF644E37 /* RidgeRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidgeRegression.swift; path = MLKit/Classes/Regression/RidgeRegression.swift; sourceTree = "<group>"; };
+		01B1464C70403CE7DA1DD75D55C75836 /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Sources/Upsurge/Hyperbolic.swift; sourceTree = "<group>"; };
+		03E01D25BD234DAA7F42A029E56CEA5E /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/Upsurge/Value.swift; sourceTree = "<group>"; };
+		04C0FD3FFB4ABCCB8763C2CA6C119C19 /* MachineLearningKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MachineLearningKit.framework; path = MachineLearningKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BCD32C888989BC7866CF37E1C63309 /* Upsurge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Upsurge.modulemap; sourceTree = "<group>"; };
+		09C7C924C1A4F96BD0EB3580CF224B13 /* ComplexArrayRealSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArrayRealSlice.swift; path = Sources/Upsurge/ComplexArrayRealSlice.swift; sourceTree = "<group>"; };
+		0DFDE5274521D388D9DC84B4155952BD /* ComplexArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArithmetic.swift; path = Sources/Upsurge/ComplexArithmetic.swift; sourceTree = "<group>"; };
+		10E7E0BEDD77E369FCF6816055472EC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		11159FC56A205DA58AABD5E3BB1104AE /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Sources/Upsurge/Arithmetic.swift; sourceTree = "<group>"; };
+		1682E4720B0121A3DBFCAD1D6F93E5FC /* Real.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Real.swift; path = Sources/Upsurge/Real.swift; sourceTree = "<group>"; };
+		1A30C9AABD3E04FEA948BF3BF2900EF8 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Sources/Upsurge/Matrix.swift; sourceTree = "<group>"; };
+		1B5EC7A8FB3D38E6D022964AC9E4EBEF /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Sources/Upsurge/Sequence.swift; sourceTree = "<group>"; };
+		200AEFDE0FEDC3B095FD4C39508FE32F /* MachineLearningKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearningKit.debug.xcconfig; sourceTree = "<group>"; };
+		202CB1CCA98FC4BFFA146F33C96725D7 /* MachineLearningKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MachineLearningKit-dummy.m"; sourceTree = "<group>"; };
+		257727EF3B1D0BB17BF81350A6087AB0 /* LinearType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearType.swift; path = Sources/Upsurge/LinearType.swift; sourceTree = "<group>"; };
+		2693104E344A1FD779A8A6C1D40BF1C0 /* Interval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interval.swift; path = Sources/Upsurge/Interval.swift; sourceTree = "<group>"; };
+		280BBBAA4C15CD11178BF59AF82FB16E /* Upsurge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Upsurge-Info.plist"; sourceTree = "<group>"; };
+		2C1D0901DB14A4BADF92E9E6C8AD5CCE /* KMeans.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMeans.swift; path = "MLKit/Classes/K Means Clustering/KMeans.swift"; sourceTree = "<group>"; };
+		2CC31D1952DAE110660ECC08854A9A53 /* DataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = "MLKit/Classes/Helper Classes & Extensions/DataManager.swift"; sourceTree = "<group>"; };
+		30E7B819DFA0676F86693975DF3D7D39 /* Upsurge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Upsurge-umbrella.h"; sourceTree = "<group>"; };
+		34477E6543835A402140FCF06840CECE /* LinearOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearOperators.swift; path = Sources/Upsurge/LinearOperators.swift; sourceTree = "<group>"; };
+		39E401BD0E51C39D1429865F82CEFEE5 /* ValueArraySlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueArraySlice.swift; path = Sources/Upsurge/ValueArraySlice.swift; sourceTree = "<group>"; };
+		3CD45407D20E024AB4EA92B635DF01DB /* MachineLearningKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearningKit.release.xcconfig; sourceTree = "<group>"; };
+		3D38BBA689E76A7B38D039A89356983C /* Pods-Minimalisticism-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Minimalisticism-acknowledgements.plist"; sourceTree = "<group>"; };
+		414364C9AC99A45C8FA510625004870C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		428EBAE73BA919360166D6BFE5200613 /* Pods-Minimalisticism-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Minimalisticism-Info.plist"; sourceTree = "<group>"; };
+		47ADECF0C30D03660CA800603A18A5E2 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "MLKit/Classes/Helper Classes & Extensions/Extensions.swift"; sourceTree = "<group>"; };
+		491BF73975E73D7860283F68FF726943 /* MachineLearningKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearningKit-prefix.pch"; sourceTree = "<group>"; };
+		4A292A5E6065BD0C9E673A6E5C1B10C2 /* Layer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layer.swift; path = MLKit/Classes/ANN/Layer.swift; sourceTree = "<group>"; };
+		508460F523CB718821BD35C8B5C321A6 /* TensorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorType.swift; path = Sources/Upsurge/TensorType.swift; sourceTree = "<group>"; };
+		5298F9EC6067110A7D7D1163D3723A62 /* Upsurge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Upsurge-prefix.pch"; sourceTree = "<group>"; };
+		5A20DAF4BA4C77BD16AB2E0DD941A080 /* DSP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSP.swift; path = Sources/Upsurge/DSP.swift; sourceTree = "<group>"; };
+		5D41603BAE82504579BA6FAA1EA8360E /* Genome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Genome.swift; path = "MLKit/Classes/Genetic Algorithms/Genome.swift"; sourceTree = "<group>"; };
+		616A9173EEEB70238B6B79F0BA7D01F1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		65357C7F39F10D85B3942B1BBE49ADE5 /* Upsurge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Upsurge.debug.xcconfig; sourceTree = "<group>"; };
+		657979A41AD7F59AA77EAC9DBBF629E9 /* Span.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Span.swift; path = Sources/Upsurge/Span.swift; sourceTree = "<group>"; };
+		69DBE659DA127AC45D7172B0F7F0E6C5 /* SimpleLinearRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleLinearRegression.swift; path = MLKit/Classes/Regression/SimpleLinearRegression.swift; sourceTree = "<group>"; };
+		6FE4C2937746EED0F9AC7F2F2D45BEEB /* Upsurge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Upsurge.release.xcconfig; sourceTree = "<group>"; };
+		719D2BD50139DC77446A743C99C6DE29 /* ActivationFunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivationFunctionType.swift; path = MLKit/Classes/ANN/ActivationFunctionType.swift; sourceTree = "<group>"; };
+		74F439F90DAF30A846F1A419AD5FF7A3 /* Upsurge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Upsurge-dummy.m"; sourceTree = "<group>"; };
+		78DB2AC588BD42915DBE806C6D1628F4 /* Upsurge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Upsurge.framework; path = Upsurge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7921CA2A614E6B62D41DFBD577D0EECE /* Tensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tensor.swift; path = Sources/Upsurge/Tensor.swift; sourceTree = "<group>"; };
+		7CEE9B8BF8274D916823BC2D3D875AEB /* Pods-Minimalisticism-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Minimalisticism-umbrella.h"; sourceTree = "<group>"; };
+		7D183B31A111AD3D9F733C2276C774E9 /* Pods-Minimalisticism-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Minimalisticism-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D6FC091AFD8EB59B29BB39C98EA7B29 /* PointerUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerUtilities.swift; path = Sources/Upsurge/PointerUtilities.swift; sourceTree = "<group>"; };
+		823A2FD0C4B9E4710BBB39B5887B9BA2 /* MLKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLKit.h; path = MLKit/Classes/MLKit.h; sourceTree = "<group>"; };
+		83B0B5CAAD8343CCE4C09E04AC421E5F /* MatrixSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixSlice.swift; path = Sources/Upsurge/MatrixSlice.swift; sourceTree = "<group>"; };
+		84E5DA1916E4BE5ACE9BAC15E17AFEA6 /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Sources/Upsurge/FFT.swift; sourceTree = "<group>"; };
+		89485444D578A08C3E18CCD1E43FF799 /* TensorSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorSlice.swift; path = Sources/Upsurge/TensorSlice.swift; sourceTree = "<group>"; };
+		9269C3D59EDE59FC24B7C9ED05257B71 /* MachineLearningKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MachineLearningKit-Info.plist"; sourceTree = "<group>"; };
+		9755F21762091B7BF8109E86C862A99C /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Sources/Upsurge/Trigonometric.swift; sourceTree = "<group>"; };
+		97A5CB16A83BBE54C0A74D1B85AD47A0 /* MachineLearningKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearningKit-umbrella.h"; sourceTree = "<group>"; };
+		9C218466DA5ECBA8B2A03114D1345E13 /* 2DTensorSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = 2DTensorSlice.swift; path = Sources/Upsurge/2DTensorSlice.swift; sourceTree = "<group>"; };
+		9C66625DC6CEE1B9443A6495CDE378BA /* Population.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Population.swift; path = "MLKit/Classes/Genetic Algorithms/Population.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17B70FB7CF29253E8D950C11075B041 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Sources/Upsurge/Exponential.swift; sourceTree = "<group>"; };
+		A6703BE841571BFDB98FD89AF7086714 /* BiologicalProcessManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BiologicalProcessManager.swift; path = "MLKit/Classes/Genetic Algorithms/BiologicalProcessManager.swift"; sourceTree = "<group>"; };
+		A7808993192BE58741ECB02E139358D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A8B080E76EC410E9EDBD95BC2A094DBD /* ValueArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueArray.swift; path = Sources/Upsurge/ValueArray.swift; sourceTree = "<group>"; };
+		A8C3D90D6AA94897A991D8482375F347 /* MatrixArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixArithmetic.swift; path = Sources/Upsurge/MatrixArithmetic.swift; sourceTree = "<group>"; };
+		AD0741BCC10B56924037B671E1C35672 /* Complex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Complex.swift; path = Sources/Upsurge/Complex.swift; sourceTree = "<group>"; };
+		AFD4447A8A141C3DFFF4CE6717444376 /* Pods-Minimalisticism.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Minimalisticism.modulemap"; sourceTree = "<group>"; };
+		B3603EC3E55E3A070A34195AD1C79EC7 /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Sources/Upsurge/Auxiliary.swift; sourceTree = "<group>"; };
+		BDF16224FDD6B5E861056629E18FD4D6 /* Pods_Minimalisticism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Minimalisticism.framework; path = "Pods-Minimalisticism.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C403F65DC1D352882F52541FEF6773 /* ComplexArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArray.swift; path = Sources/Upsurge/ComplexArray.swift; sourceTree = "<group>"; };
+		C432CC8A2E91A673866B49793737B0C0 /* Pods-Minimalisticism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Minimalisticism.release.xcconfig"; sourceTree = "<group>"; };
+		C6E448F74972C39C54893EF57FCA5993 /* MachineLeanringErrorEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MachineLeanringErrorEnum.swift; path = "MLKit/Classes/Helper Classes & Extensions/MachineLeanringErrorEnum.swift"; sourceTree = "<group>"; };
+		C77525F6AB864A64C86B104DE3C8F771 /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = MLKit/Classes/CSVReader.swift; sourceTree = "<group>"; };
+		CA51FBF8BEDC530ADC780608D9931EB2 /* PolynomialRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolynomialRegression.swift; path = MLKit/Classes/Regression/PolynomialRegression.swift; sourceTree = "<group>"; };
+		CA6E5E1EE6DE9EF04B6FF98C9A2BE432 /* Pods-Minimalisticism-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Minimalisticism-dummy.m"; sourceTree = "<group>"; };
+		D4DABB3E440F46642F2C165DD1F9C0DD /* ComplexArraySlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArraySlice.swift; path = Sources/Upsurge/ComplexArraySlice.swift; sourceTree = "<group>"; };
+		D7B2806F0D2B0DA9BDEAB5E0D1369F54 /* LassoRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LassoRegression.swift; path = MLKit/Classes/Regression/LassoRegression.swift; sourceTree = "<group>"; };
+		DB40AE85D3244AC103324571062B4580 /* Pods-Minimalisticism-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Minimalisticism-frameworks.sh"; sourceTree = "<group>"; };
+		DFB73CA3CF6229938667A30F9CF74E12 /* InputDataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputDataType.swift; path = MLKit/Classes/ANN/InputDataType.swift; sourceTree = "<group>"; };
+		E644D149B3937E2F6F387445FA7965C0 /* Upsurge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Upsurge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66D82101C2DB10B8B50468AA92CA4A1 /* QuadraticType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadraticType.swift; path = Sources/Upsurge/QuadraticType.swift; sourceTree = "<group>"; };
+		E9F3E4399D2185EB9DC298E4E4A32ED0 /* MachineLearningKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MachineLearningKit.modulemap; sourceTree = "<group>"; };
+		F4D2F4183561F773425A09379DE65CD1 /* NeuralNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeuralNetwork.swift; path = MLKit/Classes/ANN/NeuralNetwork.swift; sourceTree = "<group>"; };
+		FC7AE1386B7DD47BBD88837E542F8093 /* Pods-Minimalisticism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Minimalisticism.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8CBE34AB261B2FBDBBDDDF8FA78076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EE0E3A48DED42E89C9F3DAA288AE36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD573044B17A860E02F004B4ACC03525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9058D04677D3C307B3664ED277F91A /* Foundation.framework in Frameworks */,
+				8E1B857A18B295D301AD12E67C7274F7 /* MapKit.framework in Frameworks */,
+				379DA29BA9BA6026033D881164126FA8 /* UIKit.framework in Frameworks */,
+				0E143B9DF8BEBF58B2CB255B2201D96B /* Upsurge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F578671FD0DEFECDA864A746035849F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE2339593F6FDE10947B448DC6E5C4F /* Accelerate.framework in Frameworks */,
+				95F348B43694269F2837204E096EE69A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B72EDCE172B59DEAF38195C70BB46B /* MachineLearningKit */ = {
+			isa = PBXGroup;
+			children = (
+				719D2BD50139DC77446A743C99C6DE29 /* ActivationFunctionType.swift */,
+				A6703BE841571BFDB98FD89AF7086714 /* BiologicalProcessManager.swift */,
+				C77525F6AB864A64C86B104DE3C8F771 /* CSVReader.swift */,
+				2CC31D1952DAE110660ECC08854A9A53 /* DataManager.swift */,
+				47ADECF0C30D03660CA800603A18A5E2 /* Extensions.swift */,
+				5D41603BAE82504579BA6FAA1EA8360E /* Genome.swift */,
+				DFB73CA3CF6229938667A30F9CF74E12 /* InputDataType.swift */,
+				2C1D0901DB14A4BADF92E9E6C8AD5CCE /* KMeans.swift */,
+				D7B2806F0D2B0DA9BDEAB5E0D1369F54 /* LassoRegression.swift */,
+				4A292A5E6065BD0C9E673A6E5C1B10C2 /* Layer.swift */,
+				C6E448F74972C39C54893EF57FCA5993 /* MachineLeanringErrorEnum.swift */,
+				823A2FD0C4B9E4710BBB39B5887B9BA2 /* MLKit.h */,
+				F4D2F4183561F773425A09379DE65CD1 /* NeuralNetwork.swift */,
+				CA51FBF8BEDC530ADC780608D9931EB2 /* PolynomialRegression.swift */,
+				9C66625DC6CEE1B9443A6495CDE378BA /* Population.swift */,
+				000B6A5148C4343658A5C758CF644E37 /* RidgeRegression.swift */,
+				69DBE659DA127AC45D7172B0F7F0E6C5 /* SimpleLinearRegression.swift */,
+				FD34988248BDD1C800C70D4EAFEA00B0 /* Support Files */,
+			);
+			name = MachineLearningKit;
+			path = MachineLearningKit;
+			sourceTree = "<group>";
+		};
+		5E724E44C4DBF871621E94D007DBDFE6 /* Upsurge */ = {
+			isa = PBXGroup;
+			children = (
+				9C218466DA5ECBA8B2A03114D1345E13 /* 2DTensorSlice.swift */,
+				11159FC56A205DA58AABD5E3BB1104AE /* Arithmetic.swift */,
+				B3603EC3E55E3A070A34195AD1C79EC7 /* Auxiliary.swift */,
+				AD0741BCC10B56924037B671E1C35672 /* Complex.swift */,
+				0DFDE5274521D388D9DC84B4155952BD /* ComplexArithmetic.swift */,
+				C0C403F65DC1D352882F52541FEF6773 /* ComplexArray.swift */,
+				09C7C924C1A4F96BD0EB3580CF224B13 /* ComplexArrayRealSlice.swift */,
+				D4DABB3E440F46642F2C165DD1F9C0DD /* ComplexArraySlice.swift */,
+				5A20DAF4BA4C77BD16AB2E0DD941A080 /* DSP.swift */,
+				A17B70FB7CF29253E8D950C11075B041 /* Exponential.swift */,
+				84E5DA1916E4BE5ACE9BAC15E17AFEA6 /* FFT.swift */,
+				01B1464C70403CE7DA1DD75D55C75836 /* Hyperbolic.swift */,
+				2693104E344A1FD779A8A6C1D40BF1C0 /* Interval.swift */,
+				34477E6543835A402140FCF06840CECE /* LinearOperators.swift */,
+				257727EF3B1D0BB17BF81350A6087AB0 /* LinearType.swift */,
+				1A30C9AABD3E04FEA948BF3BF2900EF8 /* Matrix.swift */,
+				A8C3D90D6AA94897A991D8482375F347 /* MatrixArithmetic.swift */,
+				83B0B5CAAD8343CCE4C09E04AC421E5F /* MatrixSlice.swift */,
+				7D6FC091AFD8EB59B29BB39C98EA7B29 /* PointerUtilities.swift */,
+				E66D82101C2DB10B8B50468AA92CA4A1 /* QuadraticType.swift */,
+				1682E4720B0121A3DBFCAD1D6F93E5FC /* Real.swift */,
+				1B5EC7A8FB3D38E6D022964AC9E4EBEF /* Sequence.swift */,
+				657979A41AD7F59AA77EAC9DBBF629E9 /* Span.swift */,
+				7921CA2A614E6B62D41DFBD577D0EECE /* Tensor.swift */,
+				89485444D578A08C3E18CCD1E43FF799 /* TensorSlice.swift */,
+				508460F523CB718821BD35C8B5C321A6 /* TensorType.swift */,
+				9755F21762091B7BF8109E86C862A99C /* Trigonometric.swift */,
+				03E01D25BD234DAA7F42A029E56CEA5E /* Value.swift */,
+				A8B080E76EC410E9EDBD95BC2A094DBD /* ValueArray.swift */,
+				39E401BD0E51C39D1429865F82CEFEE5 /* ValueArraySlice.swift */,
+				61FE7754CF0138A38532C838686CD5CE /* Support Files */,
+			);
+			name = Upsurge;
+			path = Upsurge;
+			sourceTree = "<group>";
+		};
+		61FE7754CF0138A38532C838686CD5CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BCD32C888989BC7866CF37E1C63309 /* Upsurge.modulemap */,
+				74F439F90DAF30A846F1A419AD5FF7A3 /* Upsurge-dummy.m */,
+				280BBBAA4C15CD11178BF59AF82FB16E /* Upsurge-Info.plist */,
+				5298F9EC6067110A7D7D1163D3723A62 /* Upsurge-prefix.pch */,
+				30E7B819DFA0676F86693975DF3D7D39 /* Upsurge-umbrella.h */,
+				65357C7F39F10D85B3942B1BBE49ADE5 /* Upsurge.debug.xcconfig */,
+				6FE4C2937746EED0F9AC7F2F2D45BEEB /* Upsurge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Upsurge";
+			sourceTree = "<group>";
+		};
+		664D26DB4EFE7BCBE678DF87C20C6FF3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616A9173EEEB70238B6B79F0BA7D01F1 /* Accelerate.framework */,
+				414364C9AC99A45C8FA510625004870C /* Foundation.framework */,
+				10E7E0BEDD77E369FCF6816055472EC9 /* MapKit.framework */,
+				A7808993192BE58741ECB02E139358D5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75A5BEE29BCCD738248423E9998EABED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28B72EDCE172B59DEAF38195C70BB46B /* MachineLearningKit */,
+				5E724E44C4DBF871621E94D007DBDFE6 /* Upsurge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA0B06CB5C31E50E7490A6BFE49A66DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E644D149B3937E2F6F387445FA7965C0 /* Upsurge.framework */,
+				664D26DB4EFE7BCBE678DF87C20C6FF3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CA0B06CB5C31E50E7490A6BFE49A66DB /* Frameworks */,
+				75A5BEE29BCCD738248423E9998EABED /* Pods */,
+				F4B2B8343525E4DC4ECA1A2B791C7F5C /* Products */,
+				EC210EE336AE26976A6E73A70C683D89 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EC210EE336AE26976A6E73A70C683D89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4998AC401A860EB7FBF858CDE3AECF /* Pods-Minimalisticism */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF4998AC401A860EB7FBF858CDE3AECF /* Pods-Minimalisticism */ = {
+			isa = PBXGroup;
+			children = (
+				AFD4447A8A141C3DFFF4CE6717444376 /* Pods-Minimalisticism.modulemap */,
+				7D183B31A111AD3D9F733C2276C774E9 /* Pods-Minimalisticism-acknowledgements.markdown */,
+				3D38BBA689E76A7B38D039A89356983C /* Pods-Minimalisticism-acknowledgements.plist */,
+				CA6E5E1EE6DE9EF04B6FF98C9A2BE432 /* Pods-Minimalisticism-dummy.m */,
+				DB40AE85D3244AC103324571062B4580 /* Pods-Minimalisticism-frameworks.sh */,
+				428EBAE73BA919360166D6BFE5200613 /* Pods-Minimalisticism-Info.plist */,
+				7CEE9B8BF8274D916823BC2D3D875AEB /* Pods-Minimalisticism-umbrella.h */,
+				FC7AE1386B7DD47BBD88837E542F8093 /* Pods-Minimalisticism.debug.xcconfig */,
+				C432CC8A2E91A673866B49793737B0C0 /* Pods-Minimalisticism.release.xcconfig */,
+			);
+			name = "Pods-Minimalisticism";
+			path = "Target Support Files/Pods-Minimalisticism";
+			sourceTree = "<group>";
+		};
+		F4B2B8343525E4DC4ECA1A2B791C7F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C0FD3FFB4ABCCB8763C2CA6C119C19 /* MachineLearningKit.framework */,
+				BDF16224FDD6B5E861056629E18FD4D6 /* Pods_Minimalisticism.framework */,
+				78DB2AC588BD42915DBE806C6D1628F4 /* Upsurge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD34988248BDD1C800C70D4EAFEA00B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9F3E4399D2185EB9DC298E4E4A32ED0 /* MachineLearningKit.modulemap */,
+				202CB1CCA98FC4BFFA146F33C96725D7 /* MachineLearningKit-dummy.m */,
+				9269C3D59EDE59FC24B7C9ED05257B71 /* MachineLearningKit-Info.plist */,
+				491BF73975E73D7860283F68FF726943 /* MachineLearningKit-prefix.pch */,
+				97A5CB16A83BBE54C0A74D1B85AD47A0 /* MachineLearningKit-umbrella.h */,
+				200AEFDE0FEDC3B095FD4C39508FE32F /* MachineLearningKit.debug.xcconfig */,
+				3CD45407D20E024AB4EA92B635DF01DB /* MachineLearningKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MachineLearningKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B34D54376907632F46C40644AE5310B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50C56B5E4F6BDC034EDCE1DEACF6C91 /* Pods-Minimalisticism-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA96C5BCEC439E39BFDBB495231183 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C904C694F969DA6722BF705115DEE1 /* MachineLearningKit-umbrella.h in Headers */,
+				46795D4A5BDCFC742AB6AB777356BE6F /* MLKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D9A0B022F6F3E30A6ABBCCC5E41FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288E65592B48020B583BC66A5CAD0473 /* Upsurge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E951F596EEDDC7AB07E6076E780FED6 /* Pods-Minimalisticism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6AB068089A001CBC1FFE3C9BD8BD75 /* Build configuration list for PBXNativeTarget "Pods-Minimalisticism" */;
+			buildPhases = (
+				3B34D54376907632F46C40644AE5310B /* Headers */,
+				1DDF81B7283AFE3C5281E417362D7F11 /* Sources */,
+				9B8CBE34AB261B2FBDBBDDDF8FA78076 /* Frameworks */,
+				9114328AC0D7F9925F065567B382C7E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97C3B368B709896C425B41BE35D33B25 /* PBXTargetDependency */,
+				8D51F1E74555FF566DFDED8654D2B8BC /* PBXTargetDependency */,
+			);
+			name = "Pods-Minimalisticism";
+			productName = "Pods-Minimalisticism";
+			productReference = BDF16224FDD6B5E861056629E18FD4D6 /* Pods_Minimalisticism.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714AF45D741082F5BFFC0B101870E53F /* Build configuration list for PBXNativeTarget "Upsurge" */;
+			buildPhases = (
+				8F0D9A0B022F6F3E30A6ABBCCC5E41FC /* Headers */,
+				A220A0B726FDF01B5592F46DB0BD3A4C /* Sources */,
+				F578671FD0DEFECDA864A746035849F2 /* Frameworks */,
+				0B1E76B35C28D203905B0F9820E7B2E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Upsurge;
+			productName = Upsurge;
+			productReference = 78DB2AC588BD42915DBE806C6D1628F4 /* Upsurge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD146E4EAEF3EC13A46F66D31B949A72 /* MachineLearningKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A9978402FF6DB71BB50ADEC51316FF /* Build configuration list for PBXNativeTarget "MachineLearningKit" */;
+			buildPhases = (
+				70DA96C5BCEC439E39BFDBB495231183 /* Headers */,
+				9D040357248348FBEF51167724D8C1C9 /* Sources */,
+				DD573044B17A860E02F004B4ACC03525 /* Frameworks */,
+				39030CDC46722D18AB0C825743065D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59AD1B1BCF18A31D662D569EADC14CA7 /* PBXTargetDependency */,
+			);
+			name = MachineLearningKit;
+			productName = MachineLearningKit;
+			productReference = 04C0FD3FFB4ABCCB8763C2CA6C119C19 /* MachineLearningKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F4B2B8343525E4DC4ECA1A2B791C7F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD146E4EAEF3EC13A46F66D31B949A72 /* MachineLearningKit */,
+				3E951F596EEDDC7AB07E6076E780FED6 /* Pods-Minimalisticism */,
+				5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B1E76B35C28D203905B0F9820E7B2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39030CDC46722D18AB0C825743065D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9114328AC0D7F9925F065567B382C7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DDF81B7283AFE3C5281E417362D7F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE7C98F14F194733ECE54D38C2F7CF /* Pods-Minimalisticism-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D040357248348FBEF51167724D8C1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27E0354AB11C8F5B5B2F3912759EFC5 /* ActivationFunctionType.swift in Sources */,
+				DF6D27E2C6BA13786C2ADF7168F1F464 /* BiologicalProcessManager.swift in Sources */,
+				9BB1218948D379DEC3CE1CE646D573F0 /* CSVReader.swift in Sources */,
+				23F4027508B4ED20561B327CA383E799 /* DataManager.swift in Sources */,
+				B68F9EDCD94153AAE3968292C47431EF /* Extensions.swift in Sources */,
+				DF2C5EABB938E9D79639048928337928 /* Genome.swift in Sources */,
+				028EA85B7C5CD2696CDAB3760530C505 /* InputDataType.swift in Sources */,
+				54676D4F2A057D9D8EF5746EAF11787C /* KMeans.swift in Sources */,
+				20BE41B924734193B165502A217DDDE7 /* LassoRegression.swift in Sources */,
+				C53C211493D379820823AE81244F7F77 /* Layer.swift in Sources */,
+				EAEE8B52B0B174DC73B0241CB128EC1B /* MachineLeanringErrorEnum.swift in Sources */,
+				FF0D74EEDE7BDB0B2FB6459CB0815E93 /* MachineLearningKit-dummy.m in Sources */,
+				8C68A4D45C7F15930F087B4020AA5F12 /* NeuralNetwork.swift in Sources */,
+				41FBC0DD39F185046FC0B39E96DB2D3B /* PolynomialRegression.swift in Sources */,
+				E1C5DA1E66227ACCFC6737BB22856FF3 /* Population.swift in Sources */,
+				40226BEBC5D88D42A2600F81CD8D107E /* RidgeRegression.swift in Sources */,
+				3AFEBF3EC75CEEC29F99728386433B3A /* SimpleLinearRegression.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220A0B726FDF01B5592F46DB0BD3A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F94371BCCF033AA304DEA2BF591F896 /* 2DTensorSlice.swift in Sources */,
+				70295EF269B7BBCDCAEC999A5C0CE3AD /* Arithmetic.swift in Sources */,
+				6F1400B7D08E8E871F78CA8B21D7CA0E /* Auxiliary.swift in Sources */,
+				49B40F5FE32E6F3A7101D5F40C8BF972 /* Complex.swift in Sources */,
+				8A63B9DBAD09A1E1FB610A0184BCA70A /* ComplexArithmetic.swift in Sources */,
+				CBB583829879F181868DE508ABB25240 /* ComplexArray.swift in Sources */,
+				AE64F50E6F4B307EF4137F57029DA930 /* ComplexArrayRealSlice.swift in Sources */,
+				BE8BD455A4DCFA909744F2730CC7E6CD /* ComplexArraySlice.swift in Sources */,
+				47988BA4AAF1237AB1584D555F7E59A2 /* DSP.swift in Sources */,
+				7F60EFB47FD3A79611EC8B909667C2E4 /* Exponential.swift in Sources */,
+				0291CFA4B6BF4B9F133AF4C21E29863B /* FFT.swift in Sources */,
+				86620C5459C18A1CE21613366D2CCA41 /* Hyperbolic.swift in Sources */,
+				48FB1DC02DB72932CACD586B8511540E /* Interval.swift in Sources */,
+				581FD8C706827B631A4492FC47C8C25C /* LinearOperators.swift in Sources */,
+				42E85F4AD34D74A54E5B62C993FD4771 /* LinearType.swift in Sources */,
+				516F060ABD35A4D03EAF9B57709B8D4C /* Matrix.swift in Sources */,
+				D35C2904A855147B6AA33ACEF93B126C /* MatrixArithmetic.swift in Sources */,
+				B410EE1F8D01E079879219D8BFDBABC6 /* MatrixSlice.swift in Sources */,
+				6E575B48D45B03922BB1E849B956FB0D /* PointerUtilities.swift in Sources */,
+				697C34E9B9B2B59707B1CDB8C6A1C708 /* QuadraticType.swift in Sources */,
+				DED55DF35C2F9DB2907682314983C199 /* Real.swift in Sources */,
+				CD99B05D04FE6B79AE26F4E1513E3C54 /* Sequence.swift in Sources */,
+				02CCD935ABEDE0D89AEF3B5FB5EAE14E /* Span.swift in Sources */,
+				E3D7069660934AA9FCE42E7AF5760605 /* Tensor.swift in Sources */,
+				D4B442479DAF45F5F8F2C3E568DECC6E /* TensorSlice.swift in Sources */,
+				0387E0A122F531F4460636F11183237F /* TensorType.swift in Sources */,
+				0BEB54F333AA60674259C3EF55D86F89 /* Trigonometric.swift in Sources */,
+				1FD9CA25754639C2B3255ED8AC5D9FB0 /* Upsurge-dummy.m in Sources */,
+				737AA532402676604B53967C9EC8B023 /* Value.swift in Sources */,
+				5D91D62BE964DA369DB65345F369660A /* ValueArray.swift in Sources */,
+				636CAB8E3E669BF7D97CD0E9F5626312 /* ValueArraySlice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59AD1B1BCF18A31D662D569EADC14CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Upsurge;
+			target = 5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */;
+			targetProxy = F9410C56B936B700793E00FD89AE4A9A /* PBXContainerItemProxy */;
+		};
+		8D51F1E74555FF566DFDED8654D2B8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Upsurge;
+			target = 5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */;
+			targetProxy = 17DD91D3C98E9FFBD4DB94EFB8F01400 /* PBXContainerItemProxy */;
+		};
+		97C3B368B709896C425B41BE35D33B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MachineLearningKit;
+			target = FD146E4EAEF3EC13A46F66D31B949A72 /* MachineLearningKit */;
+			targetProxy = 3BDEA06F5D9F35469AEEBA9FFE39F9B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B146B94211BCCCAFEECA16024A6D6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD45407D20E024AB4EA92B635DF01DB /* MachineLearningKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MachineLearningKit/MachineLearningKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MachineLearningKit/MachineLearningKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MachineLearningKit/MachineLearningKit.modulemap";
+				PRODUCT_MODULE_NAME = MachineLearningKit;
+				PRODUCT_NAME = MachineLearningKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BD3173E0A0ACF0ED018F77EE11A5A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65357C7F39F10D85B3942B1BBE49ADE5 /* Upsurge.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Upsurge/Upsurge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Upsurge/Upsurge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Upsurge/Upsurge.modulemap";
+				PRODUCT_MODULE_NAME = Upsurge;
+				PRODUCT_NAME = Upsurge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D09E9F64926435B5A01CC49735ABE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200AEFDE0FEDC3B095FD4C39508FE32F /* MachineLearningKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MachineLearningKit/MachineLearningKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MachineLearningKit/MachineLearningKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MachineLearningKit/MachineLearningKit.modulemap";
+				PRODUCT_MODULE_NAME = MachineLearningKit;
+				PRODUCT_NAME = MachineLearningKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FC12D5F7AC4B344BA5009A938BC9C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C432CC8A2E91A673866B49793737B0C0 /* Pods-Minimalisticism.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Minimalisticism/Pods-Minimalisticism-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Minimalisticism/Pods-Minimalisticism.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B28A893FC40251BBB337ACDE4B9265C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7AE1386B7DD47BBD88837E542F8093 /* Pods-Minimalisticism.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Minimalisticism/Pods-Minimalisticism-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Minimalisticism/Pods-Minimalisticism.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF1F51736EC2BF633543436B01D825A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE4C2937746EED0F9AC7F2F2D45BEEB /* Upsurge.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Upsurge/Upsurge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Upsurge/Upsurge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Upsurge/Upsurge.modulemap";
+				PRODUCT_MODULE_NAME = Upsurge;
+				PRODUCT_NAME = Upsurge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714AF45D741082F5BFFC0B101870E53F /* Build configuration list for PBXNativeTarget "Upsurge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD3173E0A0ACF0ED018F77EE11A5A1A /* Debug */,
+				BF1F51736EC2BF633543436B01D825A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6AB068089A001CBC1FFE3C9BD8BD75 /* Build configuration list for PBXNativeTarget "Pods-Minimalisticism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28A893FC40251BBB337ACDE4B9265C8 /* Debug */,
+				7FC12D5F7AC4B344BA5009A938BC9C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A9978402FF6DB71BB50ADEC51316FF /* Build configuration list for PBXNativeTarget "MachineLearningKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09E9F64926435B5A01CC49735ABE99 /* Debug */,
+				4B146B94211BCCCAFEECA16024A6D6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

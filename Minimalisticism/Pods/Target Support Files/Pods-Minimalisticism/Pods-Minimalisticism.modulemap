@@ -1,0 +1,6 @@
+framework module Pods_Minimalisticism {
+  umbrella header "Pods-Minimalisticism-umbrella.h"
+
+  export *
+  module * { export * }
+}
