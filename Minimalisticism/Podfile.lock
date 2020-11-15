@@ -1,20 +1,24 @@
 PODS:
   - MachineLearningKit (0.1.8):
     - Upsurge
+  - SwiftLint (0.41.0)
   - Upsurge (0.10.2)
 
 DEPENDENCIES:
   - MachineLearningKit
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - MachineLearningKit
+    - SwiftLint
     - Upsurge
 
 SPEC CHECKSUMS:
   MachineLearningKit: a2b08488977e79eb075c771c7154ef044f95d5f8
+  SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
   Upsurge: 5866beadc3da27f91c5df4ac795deb3f3238d678
 
-PODFILE CHECKSUM: b79c7e7294a04d10c875d372191ba8a4113aaf2c
+PODFILE CHECKSUM: 7b16ba2487d8bf77492aef35cd683807aa1eb327
 
 COCOAPODS: 1.9.2

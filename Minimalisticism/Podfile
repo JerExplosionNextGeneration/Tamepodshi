@@ -9,4 +9,6 @@ target 'Minimalisticism' do
 
 	pod 'MachineLearningKit'
 
+				    pod 'SwiftLint'
+
 end

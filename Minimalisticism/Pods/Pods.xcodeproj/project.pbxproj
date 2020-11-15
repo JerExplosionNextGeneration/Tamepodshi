@@ -6,83 +6,102 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		028EA85B7C5CD2696CDAB3760530C505 /* InputDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB73CA3CF6229938667A30F9CF74E12 /* InputDataType.swift */; };
-		0291CFA4B6BF4B9F133AF4C21E29863B /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5DA1916E4BE5ACE9BAC15E17AFEA6 /* FFT.swift */; };
-		02CCD935ABEDE0D89AEF3B5FB5EAE14E /* Span.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657979A41AD7F59AA77EAC9DBBF629E9 /* Span.swift */; };
-		0387E0A122F531F4460636F11183237F /* TensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508460F523CB718821BD35C8B5C321A6 /* TensorType.swift */; };
-		0BEB54F333AA60674259C3EF55D86F89 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F21762091B7BF8109E86C862A99C /* Trigonometric.swift */; };
+		028EA85B7C5CD2696CDAB3760530C505 /* InputDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7A36A02A6B29C6AEEBA43EACE7095B /* InputDataType.swift */; };
+		0291CFA4B6BF4B9F133AF4C21E29863B /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69B1749E0A12573132B311484CC818 /* FFT.swift */; };
+		02CCD935ABEDE0D89AEF3B5FB5EAE14E /* Span.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0847F6ACFE6E3A79895739419F859C43 /* Span.swift */; };
+		0387E0A122F531F4460636F11183237F /* TensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01953A812FD2A97B714A4B4E380F72FA /* TensorType.swift */; };
+		0BEB54F333AA60674259C3EF55D86F89 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38403A129140A0E10ADDCCB7DD280E78 /* Trigonometric.swift */; };
 		0E143B9DF8BEBF58B2CB255B2201D96B /* Upsurge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E644D149B3937E2F6F387445FA7965C0 /* Upsurge.framework */; };
-		1FD9CA25754639C2B3255ED8AC5D9FB0 /* Upsurge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F439F90DAF30A846F1A419AD5FF7A3 /* Upsurge-dummy.m */; };
-		20BE41B924734193B165502A217DDDE7 /* LassoRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B2806F0D2B0DA9BDEAB5E0D1369F54 /* LassoRegression.swift */; };
-		23F4027508B4ED20561B327CA383E799 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC31D1952DAE110660ECC08854A9A53 /* DataManager.swift */; };
-		288E65592B48020B583BC66A5CAD0473 /* Upsurge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E7B819DFA0676F86693975DF3D7D39 /* Upsurge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31C904C694F969DA6722BF705115DEE1 /* MachineLearningKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A5CB16A83BBE54C0A74D1B85AD47A0 /* MachineLearningKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD9CA25754639C2B3255ED8AC5D9FB0 /* Upsurge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F83F28F212D978D1DF821FC45F9CEC13 /* Upsurge-dummy.m */; };
+		20BE41B924734193B165502A217DDDE7 /* LassoRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A9BB49FEEE6B4F208AD173AAE8492 /* LassoRegression.swift */; };
+		234F6C465836DB2C2E5E87B7EC7E69A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414364C9AC99A45C8FA510625004870C /* Foundation.framework */; };
+		23F4027508B4ED20561B327CA383E799 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8044366419AB7EFDD9AA76DE51A9BD12 /* DataManager.swift */; };
+		26BE189C0AD4B61823E0198F0E66FDED /* Pods-Minimalisticism-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEE9B8BF8274D916823BC2D3D875AEB /* Pods-Minimalisticism-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288E65592B48020B583BC66A5CAD0473 /* Upsurge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B76EA631106D10CEAAC3BBD4C80694C /* Upsurge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C904C694F969DA6722BF705115DEE1 /* MachineLearningKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A15CD3290F0B1F092B1F55B614900352 /* MachineLearningKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		379DA29BA9BA6026033D881164126FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7808993192BE58741ECB02E139358D5 /* UIKit.framework */; };
-		3AFEBF3EC75CEEC29F99728386433B3A /* SimpleLinearRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DBE659DA127AC45D7172B0F7F0E6C5 /* SimpleLinearRegression.swift */; };
-		40226BEBC5D88D42A2600F81CD8D107E /* RidgeRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B6A5148C4343658A5C758CF644E37 /* RidgeRegression.swift */; };
-		41FBC0DD39F185046FC0B39E96DB2D3B /* PolynomialRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51FBF8BEDC530ADC780608D9931EB2 /* PolynomialRegression.swift */; };
-		42E85F4AD34D74A54E5B62C993FD4771 /* LinearType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257727EF3B1D0BB17BF81350A6087AB0 /* LinearType.swift */; };
-		45EE0E3A48DED42E89C9F3DAA288AE36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414364C9AC99A45C8FA510625004870C /* Foundation.framework */; };
-		46795D4A5BDCFC742AB6AB777356BE6F /* MLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 823A2FD0C4B9E4710BBB39B5887B9BA2 /* MLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47988BA4AAF1237AB1584D555F7E59A2 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A20DAF4BA4C77BD16AB2E0DD941A080 /* DSP.swift */; };
-		48FB1DC02DB72932CACD586B8511540E /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693104E344A1FD779A8A6C1D40BF1C0 /* Interval.swift */; };
-		49B40F5FE32E6F3A7101D5F40C8BF972 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0741BCC10B56924037B671E1C35672 /* Complex.swift */; };
+		3AFEBF3EC75CEEC29F99728386433B3A /* SimpleLinearRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE428686733400CB3F0CFA6B27F2D /* SimpleLinearRegression.swift */; };
+		40226BEBC5D88D42A2600F81CD8D107E /* RidgeRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC0AEF3361A6C4F87E4CEE268C0CEC /* RidgeRegression.swift */; };
+		41FBC0DD39F185046FC0B39E96DB2D3B /* PolynomialRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9BF1522FA901EED03AB62A56FA643 /* PolynomialRegression.swift */; };
+		42E85F4AD34D74A54E5B62C993FD4771 /* LinearType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6678796AE1A1553EBDE998009F52F /* LinearType.swift */; };
+		46795D4A5BDCFC742AB6AB777356BE6F /* MLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E9CA97398BD0DF7AFA802ACE587648 /* MLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47988BA4AAF1237AB1584D555F7E59A2 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8613FEE4807126E16F98FD7A4440ADBD /* DSP.swift */; };
+		48FB1DC02DB72932CACD586B8511540E /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE65D4CD91FEEC90FE1317794A7D1D /* Interval.swift */; };
+		49B40F5FE32E6F3A7101D5F40C8BF972 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B92E0041F7F5B114711204133928A /* Complex.swift */; };
 		4EE2339593F6FDE10947B448DC6E5C4F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616A9173EEEB70238B6B79F0BA7D01F1 /* Accelerate.framework */; };
-		4F94371BCCF033AA304DEA2BF591F896 /* 2DTensorSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C218466DA5ECBA8B2A03114D1345E13 /* 2DTensorSlice.swift */; };
-		516F060ABD35A4D03EAF9B57709B8D4C /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A30C9AABD3E04FEA948BF3BF2900EF8 /* Matrix.swift */; };
-		54676D4F2A057D9D8EF5746EAF11787C /* KMeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D0901DB14A4BADF92E9E6C8AD5CCE /* KMeans.swift */; };
-		581FD8C706827B631A4492FC47C8C25C /* LinearOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34477E6543835A402140FCF06840CECE /* LinearOperators.swift */; };
-		5D91D62BE964DA369DB65345F369660A /* ValueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B080E76EC410E9EDBD95BC2A094DBD /* ValueArray.swift */; };
-		636CAB8E3E669BF7D97CD0E9F5626312 /* ValueArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E401BD0E51C39D1429865F82CEFEE5 /* ValueArraySlice.swift */; };
-		697C34E9B9B2B59707B1CDB8C6A1C708 /* QuadraticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D82101C2DB10B8B50468AA92CA4A1 /* QuadraticType.swift */; };
-		6E575B48D45B03922BB1E849B956FB0D /* PointerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6FC091AFD8EB59B29BB39C98EA7B29 /* PointerUtilities.swift */; };
-		6F1400B7D08E8E871F78CA8B21D7CA0E /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3603EC3E55E3A070A34195AD1C79EC7 /* Auxiliary.swift */; };
-		70295EF269B7BBCDCAEC999A5C0CE3AD /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11159FC56A205DA58AABD5E3BB1104AE /* Arithmetic.swift */; };
-		737AA532402676604B53967C9EC8B023 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E01D25BD234DAA7F42A029E56CEA5E /* Value.swift */; };
-		7F60EFB47FD3A79611EC8B909667C2E4 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B70FB7CF29253E8D950C11075B041 /* Exponential.swift */; };
-		86620C5459C18A1CE21613366D2CCA41 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B1464C70403CE7DA1DD75D55C75836 /* Hyperbolic.swift */; };
-		8A63B9DBAD09A1E1FB610A0184BCA70A /* ComplexArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFDE5274521D388D9DC84B4155952BD /* ComplexArithmetic.swift */; };
-		8C68A4D45C7F15930F087B4020AA5F12 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2F4183561F773425A09379DE65CD1 /* NeuralNetwork.swift */; };
+		4F94371BCCF033AA304DEA2BF591F896 /* 2DTensorSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8E6E8DF18F649B12C0EBD7E78A267 /* 2DTensorSlice.swift */; };
+		516F060ABD35A4D03EAF9B57709B8D4C /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251935DAD5298C7053DB4CB7107CBFAA /* Matrix.swift */; };
+		54676D4F2A057D9D8EF5746EAF11787C /* KMeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F5A6B9602623AA0C73B69DB618BBFF /* KMeans.swift */; };
+		581FD8C706827B631A4492FC47C8C25C /* LinearOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF05D3E015A7B758179BFBECA10ACD /* LinearOperators.swift */; };
+		59779CA76A1E7C1EA5AEA4A9ED281ECF /* Pods-Minimalisticism-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E5E1EE6DE9EF04B6FF98C9A2BE432 /* Pods-Minimalisticism-dummy.m */; };
+		5D91D62BE964DA369DB65345F369660A /* ValueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A5E04650C8CA9E1A942277B4EAA5D /* ValueArray.swift */; };
+		636CAB8E3E669BF7D97CD0E9F5626312 /* ValueArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36F18C397D23E5F961CC06C8771D21C /* ValueArraySlice.swift */; };
+		697C34E9B9B2B59707B1CDB8C6A1C708 /* QuadraticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DA95BCE8E8D3A756F9DC692513646 /* QuadraticType.swift */; };
+		6E575B48D45B03922BB1E849B956FB0D /* PointerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD492BC41BE694687D7859EBACF60F /* PointerUtilities.swift */; };
+		6F1400B7D08E8E871F78CA8B21D7CA0E /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0443B6C3EEFEE166A64AB3294F350A /* Auxiliary.swift */; };
+		70295EF269B7BBCDCAEC999A5C0CE3AD /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB71BA01BBA9E7974056326AFFF91FC8 /* Arithmetic.swift */; };
+		737AA532402676604B53967C9EC8B023 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ADDF4ADBD8F007F7CE34CD03068F5 /* Value.swift */; };
+		7F60EFB47FD3A79611EC8B909667C2E4 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BB6C7C05484D5DCE3E2644CE46AE8 /* Exponential.swift */; };
+		86620C5459C18A1CE21613366D2CCA41 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BCA84979B67FAD919BAF5DA6935F69 /* Hyperbolic.swift */; };
+		8A63B9DBAD09A1E1FB610A0184BCA70A /* ComplexArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE12C3EE65DE5159784CB8FA9711C4E /* ComplexArithmetic.swift */; };
+		8C68A4D45C7F15930F087B4020AA5F12 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB961373655578C5093E563158496E /* NeuralNetwork.swift */; };
 		8E1B857A18B295D301AD12E67C7274F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E7E0BEDD77E369FCF6816055472EC9 /* MapKit.framework */; };
 		95F348B43694269F2837204E096EE69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414364C9AC99A45C8FA510625004870C /* Foundation.framework */; };
-		9BB1218948D379DEC3CE1CE646D573F0 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77525F6AB864A64C86B104DE3C8F771 /* CSVReader.swift */; };
-		A27E0354AB11C8F5B5B2F3912759EFC5 /* ActivationFunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D2BD50139DC77446A743C99C6DE29 /* ActivationFunctionType.swift */; };
-		AE64F50E6F4B307EF4137F57029DA930 /* ComplexArrayRealSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C7C924C1A4F96BD0EB3580CF224B13 /* ComplexArrayRealSlice.swift */; };
-		B410EE1F8D01E079879219D8BFDBABC6 /* MatrixSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0B5CAAD8343CCE4C09E04AC421E5F /* MatrixSlice.swift */; };
-		B68F9EDCD94153AAE3968292C47431EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADECF0C30D03660CA800603A18A5E2 /* Extensions.swift */; };
-		BE8BD455A4DCFA909744F2730CC7E6CD /* ComplexArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DABB3E440F46642F2C165DD1F9C0DD /* ComplexArraySlice.swift */; };
-		C53C211493D379820823AE81244F7F77 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A292A5E6065BD0C9E673A6E5C1B10C2 /* Layer.swift */; };
-		CABE7C98F14F194733ECE54D38C2F7CF /* Pods-Minimalisticism-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E5E1EE6DE9EF04B6FF98C9A2BE432 /* Pods-Minimalisticism-dummy.m */; };
-		CBB583829879F181868DE508ABB25240 /* ComplexArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C403F65DC1D352882F52541FEF6773 /* ComplexArray.swift */; };
-		CD99B05D04FE6B79AE26F4E1513E3C54 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5EC7A8FB3D38E6D022964AC9E4EBEF /* Sequence.swift */; };
-		D35C2904A855147B6AA33ACEF93B126C /* MatrixArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3D90D6AA94897A991D8482375F347 /* MatrixArithmetic.swift */; };
-		D4B442479DAF45F5F8F2C3E568DECC6E /* TensorSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89485444D578A08C3E18CCD1E43FF799 /* TensorSlice.swift */; };
-		D50C56B5E4F6BDC034EDCE1DEACF6C91 /* Pods-Minimalisticism-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEE9B8BF8274D916823BC2D3D875AEB /* Pods-Minimalisticism-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB1218948D379DEC3CE1CE646D573F0 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E08A7470896A655DA1141668F5A8B /* CSVReader.swift */; };
+		A27E0354AB11C8F5B5B2F3912759EFC5 /* ActivationFunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F07ED9EC20BECF74B7325EE08B7F3 /* ActivationFunctionType.swift */; };
+		AE64F50E6F4B307EF4137F57029DA930 /* ComplexArrayRealSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E418348313890F742CD5C51552572 /* ComplexArrayRealSlice.swift */; };
+		B410EE1F8D01E079879219D8BFDBABC6 /* MatrixSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E000C09E55910062CCDB4B4CE3A5CB1 /* MatrixSlice.swift */; };
+		B68F9EDCD94153AAE3968292C47431EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3969E59AEE8960B286356A51535429 /* Extensions.swift */; };
+		BE8BD455A4DCFA909744F2730CC7E6CD /* ComplexArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BB7E4A55155F702CCD1CFA9A675F48 /* ComplexArraySlice.swift */; };
+		C53C211493D379820823AE81244F7F77 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9533C0839B9302305526A2638E59C01 /* Layer.swift */; };
+		CBB583829879F181868DE508ABB25240 /* ComplexArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF3DC26C48F5C9643B5C0C2090C8F4 /* ComplexArray.swift */; };
+		CD99B05D04FE6B79AE26F4E1513E3C54 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983A33A2FEFC8058DF424E29BE31FCE /* Sequence.swift */; };
+		D35C2904A855147B6AA33ACEF93B126C /* MatrixArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A00E31D3C9378E06700743E3EDA2B /* MatrixArithmetic.swift */; };
+		D4B442479DAF45F5F8F2C3E568DECC6E /* TensorSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C8C60C160EF51397A5C2C609167E4 /* TensorSlice.swift */; };
 		DA9058D04677D3C307B3664ED277F91A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414364C9AC99A45C8FA510625004870C /* Foundation.framework */; };
-		DED55DF35C2F9DB2907682314983C199 /* Real.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682E4720B0121A3DBFCAD1D6F93E5FC /* Real.swift */; };
-		DF2C5EABB938E9D79639048928337928 /* Genome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41603BAE82504579BA6FAA1EA8360E /* Genome.swift */; };
-		DF6D27E2C6BA13786C2ADF7168F1F464 /* BiologicalProcessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6703BE841571BFDB98FD89AF7086714 /* BiologicalProcessManager.swift */; };
-		E1C5DA1E66227ACCFC6737BB22856FF3 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66625DC6CEE1B9443A6495CDE378BA /* Population.swift */; };
-		E3D7069660934AA9FCE42E7AF5760605 /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7921CA2A614E6B62D41DFBD577D0EECE /* Tensor.swift */; };
-		EAEE8B52B0B174DC73B0241CB128EC1B /* MachineLeanringErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E448F74972C39C54893EF57FCA5993 /* MachineLeanringErrorEnum.swift */; };
-		FF0D74EEDE7BDB0B2FB6459CB0815E93 /* MachineLearningKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 202CB1CCA98FC4BFFA146F33C96725D7 /* MachineLearningKit-dummy.m */; };
+		DED55DF35C2F9DB2907682314983C199 /* Real.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2FC5DE58EFD701D670DFA2165183B /* Real.swift */; };
+		DF2C5EABB938E9D79639048928337928 /* Genome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3361B9F0F50A192044D4EB4C58122 /* Genome.swift */; };
+		DF6D27E2C6BA13786C2ADF7168F1F464 /* BiologicalProcessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB50CEC9B3038ADCC6516761B154 /* BiologicalProcessManager.swift */; };
+		E1C5DA1E66227ACCFC6737BB22856FF3 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC67487BB38DACD95FC8113E4C3C93 /* Population.swift */; };
+		E3D7069660934AA9FCE42E7AF5760605 /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF3B37CFAC740C630A837A357A2BC2 /* Tensor.swift */; };
+		EAEE8B52B0B174DC73B0241CB128EC1B /* MachineLeanringErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511E74ACA564E5F0DF5A9B47706AF48 /* MachineLeanringErrorEnum.swift */; };
+		FF0D74EEDE7BDB0B2FB6459CB0815E93 /* MachineLearningKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE06FA37DB4F3A0C9B308931C066080 /* MachineLearningKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17DD91D3C98E9FFBD4DB94EFB8F01400 /* PBXContainerItemProxy */ = {
+		406A21E5C46A169E7E593F291622E9CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5BFE7CD58C2C80280F96E42DFEDC5803;
 			remoteInfo = Upsurge;
 		};
-		3BDEA06F5D9F35469AEEBA9FFE39F9B5 /* PBXContainerItemProxy */ = {
+		6687FE41EEABBCB5D558E8E6180F33E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FD146E4EAEF3EC13A46F66D31B949A72;
 			remoteInfo = MachineLearningKit;
+		};
+		E245D6E9A8FC7D6AD26E9F395A3313FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
 		F9410C56B936B700793E00FD89AE4A9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -94,93 +113,95 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000B6A5148C4343658A5C758CF644E37 /* RidgeRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidgeRegression.swift; path = MLKit/Classes/Regression/RidgeRegression.swift; sourceTree = "<group>"; };
-		01B1464C70403CE7DA1DD75D55C75836 /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Sources/Upsurge/Hyperbolic.swift; sourceTree = "<group>"; };
-		03E01D25BD234DAA7F42A029E56CEA5E /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/Upsurge/Value.swift; sourceTree = "<group>"; };
+		01953A812FD2A97B714A4B4E380F72FA /* TensorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorType.swift; path = Sources/Upsurge/TensorType.swift; sourceTree = "<group>"; };
+		03F5A6B9602623AA0C73B69DB618BBFF /* KMeans.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMeans.swift; path = "MLKit/Classes/K Means Clustering/KMeans.swift"; sourceTree = "<group>"; };
 		04C0FD3FFB4ABCCB8763C2CA6C119C19 /* MachineLearningKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MachineLearningKit.framework; path = MachineLearningKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08BCD32C888989BC7866CF37E1C63309 /* Upsurge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Upsurge.modulemap; sourceTree = "<group>"; };
-		09C7C924C1A4F96BD0EB3580CF224B13 /* ComplexArrayRealSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArrayRealSlice.swift; path = Sources/Upsurge/ComplexArrayRealSlice.swift; sourceTree = "<group>"; };
-		0DFDE5274521D388D9DC84B4155952BD /* ComplexArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArithmetic.swift; path = Sources/Upsurge/ComplexArithmetic.swift; sourceTree = "<group>"; };
+		0847F6ACFE6E3A79895739419F859C43 /* Span.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Span.swift; path = Sources/Upsurge/Span.swift; sourceTree = "<group>"; };
+		08BB7E4A55155F702CCD1CFA9A675F48 /* ComplexArraySlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArraySlice.swift; path = Sources/Upsurge/ComplexArraySlice.swift; sourceTree = "<group>"; };
+		09F6F8492936F20E1104E7F30F0BC29B /* MachineLearningKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearningKit.release.xcconfig; sourceTree = "<group>"; };
 		10E7E0BEDD77E369FCF6816055472EC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		11159FC56A205DA58AABD5E3BB1104AE /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Sources/Upsurge/Arithmetic.swift; sourceTree = "<group>"; };
-		1682E4720B0121A3DBFCAD1D6F93E5FC /* Real.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Real.swift; path = Sources/Upsurge/Real.swift; sourceTree = "<group>"; };
-		1A30C9AABD3E04FEA948BF3BF2900EF8 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Sources/Upsurge/Matrix.swift; sourceTree = "<group>"; };
-		1B5EC7A8FB3D38E6D022964AC9E4EBEF /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Sources/Upsurge/Sequence.swift; sourceTree = "<group>"; };
-		200AEFDE0FEDC3B095FD4C39508FE32F /* MachineLearningKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearningKit.debug.xcconfig; sourceTree = "<group>"; };
-		202CB1CCA98FC4BFFA146F33C96725D7 /* MachineLearningKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MachineLearningKit-dummy.m"; sourceTree = "<group>"; };
-		257727EF3B1D0BB17BF81350A6087AB0 /* LinearType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearType.swift; path = Sources/Upsurge/LinearType.swift; sourceTree = "<group>"; };
-		2693104E344A1FD779A8A6C1D40BF1C0 /* Interval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interval.swift; path = Sources/Upsurge/Interval.swift; sourceTree = "<group>"; };
-		280BBBAA4C15CD11178BF59AF82FB16E /* Upsurge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Upsurge-Info.plist"; sourceTree = "<group>"; };
-		2C1D0901DB14A4BADF92E9E6C8AD5CCE /* KMeans.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMeans.swift; path = "MLKit/Classes/K Means Clustering/KMeans.swift"; sourceTree = "<group>"; };
-		2CC31D1952DAE110660ECC08854A9A53 /* DataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = "MLKit/Classes/Helper Classes & Extensions/DataManager.swift"; sourceTree = "<group>"; };
-		30E7B819DFA0676F86693975DF3D7D39 /* Upsurge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Upsurge-umbrella.h"; sourceTree = "<group>"; };
-		34477E6543835A402140FCF06840CECE /* LinearOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearOperators.swift; path = Sources/Upsurge/LinearOperators.swift; sourceTree = "<group>"; };
-		39E401BD0E51C39D1429865F82CEFEE5 /* ValueArraySlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueArraySlice.swift; path = Sources/Upsurge/ValueArraySlice.swift; sourceTree = "<group>"; };
-		3CD45407D20E024AB4EA92B635DF01DB /* MachineLearningKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearningKit.release.xcconfig; sourceTree = "<group>"; };
+		114F9C075CF686F6450838FE6383D7B4 /* MachineLearningKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearningKit-prefix.pch"; sourceTree = "<group>"; };
+		12EF3DC26C48F5C9643B5C0C2090C8F4 /* ComplexArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArray.swift; path = Sources/Upsurge/ComplexArray.swift; sourceTree = "<group>"; };
+		1C0443B6C3EEFEE166A64AB3294F350A /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Sources/Upsurge/Auxiliary.swift; sourceTree = "<group>"; };
+		1F6C8C60C160EF51397A5C2C609167E4 /* TensorSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorSlice.swift; path = Sources/Upsurge/TensorSlice.swift; sourceTree = "<group>"; };
+		20E0C99ADF1FD84ED4E381FA6FBC2E19 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		231ADDF4ADBD8F007F7CE34CD03068F5 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/Upsurge/Value.swift; sourceTree = "<group>"; };
+		23F8E6E8DF18F649B12C0EBD7E78A267 /* 2DTensorSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = 2DTensorSlice.swift; path = Sources/Upsurge/2DTensorSlice.swift; sourceTree = "<group>"; };
+		251935DAD5298C7053DB4CB7107CBFAA /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Sources/Upsurge/Matrix.swift; sourceTree = "<group>"; };
+		29DFE428686733400CB3F0CFA6B27F2D /* SimpleLinearRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleLinearRegression.swift; path = MLKit/Classes/Regression/SimpleLinearRegression.swift; sourceTree = "<group>"; };
+		2B9DA95BCE8E8D3A756F9DC692513646 /* QuadraticType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadraticType.swift; path = Sources/Upsurge/QuadraticType.swift; sourceTree = "<group>"; };
+		2BDF05D3E015A7B758179BFBECA10ACD /* LinearOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearOperators.swift; path = Sources/Upsurge/LinearOperators.swift; sourceTree = "<group>"; };
+		2FE06FA37DB4F3A0C9B308931C066080 /* MachineLearningKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MachineLearningKit-dummy.m"; sourceTree = "<group>"; };
+		38403A129140A0E10ADDCCB7DD280E78 /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Sources/Upsurge/Trigonometric.swift; sourceTree = "<group>"; };
+		3CB6678796AE1A1553EBDE998009F52F /* LinearType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearType.swift; path = Sources/Upsurge/LinearType.swift; sourceTree = "<group>"; };
 		3D38BBA689E76A7B38D039A89356983C /* Pods-Minimalisticism-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Minimalisticism-acknowledgements.plist"; sourceTree = "<group>"; };
 		414364C9AC99A45C8FA510625004870C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		428EBAE73BA919360166D6BFE5200613 /* Pods-Minimalisticism-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Minimalisticism-Info.plist"; sourceTree = "<group>"; };
-		47ADECF0C30D03660CA800603A18A5E2 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "MLKit/Classes/Helper Classes & Extensions/Extensions.swift"; sourceTree = "<group>"; };
-		491BF73975E73D7860283F68FF726943 /* MachineLearningKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearningKit-prefix.pch"; sourceTree = "<group>"; };
-		4A292A5E6065BD0C9E673A6E5C1B10C2 /* Layer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layer.swift; path = MLKit/Classes/ANN/Layer.swift; sourceTree = "<group>"; };
-		508460F523CB718821BD35C8B5C321A6 /* TensorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorType.swift; path = Sources/Upsurge/TensorType.swift; sourceTree = "<group>"; };
-		5298F9EC6067110A7D7D1163D3723A62 /* Upsurge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Upsurge-prefix.pch"; sourceTree = "<group>"; };
-		5A20DAF4BA4C77BD16AB2E0DD941A080 /* DSP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSP.swift; path = Sources/Upsurge/DSP.swift; sourceTree = "<group>"; };
-		5D41603BAE82504579BA6FAA1EA8360E /* Genome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Genome.swift; path = "MLKit/Classes/Genetic Algorithms/Genome.swift"; sourceTree = "<group>"; };
+		42E3CC12D2E248A661FAFAA428B36467 /* MachineLearningKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MachineLearningKit.modulemap; sourceTree = "<group>"; };
+		4476BB50CEC9B3038ADCC6516761B154 /* BiologicalProcessManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BiologicalProcessManager.swift; path = "MLKit/Classes/Genetic Algorithms/BiologicalProcessManager.swift"; sourceTree = "<group>"; };
+		4A3969E59AEE8960B286356A51535429 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "MLKit/Classes/Helper Classes & Extensions/Extensions.swift"; sourceTree = "<group>"; };
+		4D3F50D869516680C82B18D0EB634404 /* Upsurge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Upsurge.modulemap; sourceTree = "<group>"; };
+		5FFC67487BB38DACD95FC8113E4C3C93 /* Population.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Population.swift; path = "MLKit/Classes/Genetic Algorithms/Population.swift"; sourceTree = "<group>"; };
+		608E08A7470896A655DA1141668F5A8B /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = MLKit/Classes/CSVReader.swift; sourceTree = "<group>"; };
 		616A9173EEEB70238B6B79F0BA7D01F1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		65357C7F39F10D85B3942B1BBE49ADE5 /* Upsurge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Upsurge.debug.xcconfig; sourceTree = "<group>"; };
-		657979A41AD7F59AA77EAC9DBBF629E9 /* Span.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Span.swift; path = Sources/Upsurge/Span.swift; sourceTree = "<group>"; };
-		69DBE659DA127AC45D7172B0F7F0E6C5 /* SimpleLinearRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleLinearRegression.swift; path = MLKit/Classes/Regression/SimpleLinearRegression.swift; sourceTree = "<group>"; };
-		6FE4C2937746EED0F9AC7F2F2D45BEEB /* Upsurge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Upsurge.release.xcconfig; sourceTree = "<group>"; };
-		719D2BD50139DC77446A743C99C6DE29 /* ActivationFunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivationFunctionType.swift; path = MLKit/Classes/ANN/ActivationFunctionType.swift; sourceTree = "<group>"; };
-		74F439F90DAF30A846F1A419AD5FF7A3 /* Upsurge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Upsurge-dummy.m"; sourceTree = "<group>"; };
+		61BF3B37CFAC740C630A837A357A2BC2 /* Tensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tensor.swift; path = Sources/Upsurge/Tensor.swift; sourceTree = "<group>"; };
+		66DB961373655578C5093E563158496E /* NeuralNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeuralNetwork.swift; path = MLKit/Classes/ANN/NeuralNetwork.swift; sourceTree = "<group>"; };
+		6E1F07ED9EC20BECF74B7325EE08B7F3 /* ActivationFunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivationFunctionType.swift; path = MLKit/Classes/ANN/ActivationFunctionType.swift; sourceTree = "<group>"; };
 		78DB2AC588BD42915DBE806C6D1628F4 /* Upsurge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Upsurge.framework; path = Upsurge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7921CA2A614E6B62D41DFBD577D0EECE /* Tensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tensor.swift; path = Sources/Upsurge/Tensor.swift; sourceTree = "<group>"; };
 		7CEE9B8BF8274D916823BC2D3D875AEB /* Pods-Minimalisticism-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Minimalisticism-umbrella.h"; sourceTree = "<group>"; };
 		7D183B31A111AD3D9F733C2276C774E9 /* Pods-Minimalisticism-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Minimalisticism-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D6FC091AFD8EB59B29BB39C98EA7B29 /* PointerUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerUtilities.swift; path = Sources/Upsurge/PointerUtilities.swift; sourceTree = "<group>"; };
-		823A2FD0C4B9E4710BBB39B5887B9BA2 /* MLKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLKit.h; path = MLKit/Classes/MLKit.h; sourceTree = "<group>"; };
-		83B0B5CAAD8343CCE4C09E04AC421E5F /* MatrixSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixSlice.swift; path = Sources/Upsurge/MatrixSlice.swift; sourceTree = "<group>"; };
-		84E5DA1916E4BE5ACE9BAC15E17AFEA6 /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Sources/Upsurge/FFT.swift; sourceTree = "<group>"; };
-		89485444D578A08C3E18CCD1E43FF799 /* TensorSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorSlice.swift; path = Sources/Upsurge/TensorSlice.swift; sourceTree = "<group>"; };
-		9269C3D59EDE59FC24B7C9ED05257B71 /* MachineLearningKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MachineLearningKit-Info.plist"; sourceTree = "<group>"; };
-		9755F21762091B7BF8109E86C862A99C /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Sources/Upsurge/Trigonometric.swift; sourceTree = "<group>"; };
-		97A5CB16A83BBE54C0A74D1B85AD47A0 /* MachineLearningKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearningKit-umbrella.h"; sourceTree = "<group>"; };
-		9C218466DA5ECBA8B2A03114D1345E13 /* 2DTensorSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = 2DTensorSlice.swift; path = Sources/Upsurge/2DTensorSlice.swift; sourceTree = "<group>"; };
-		9C66625DC6CEE1B9443A6495CDE378BA /* Population.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Population.swift; path = "MLKit/Classes/Genetic Algorithms/Population.swift"; sourceTree = "<group>"; };
+		8044366419AB7EFDD9AA76DE51A9BD12 /* DataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = "MLKit/Classes/Helper Classes & Extensions/DataManager.swift"; sourceTree = "<group>"; };
+		80F2FC5DE58EFD701D670DFA2165183B /* Real.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Real.swift; path = Sources/Upsurge/Real.swift; sourceTree = "<group>"; };
+		81EC0AEF3361A6C4F87E4CEE268C0CEC /* RidgeRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidgeRegression.swift; path = MLKit/Classes/Regression/RidgeRegression.swift; sourceTree = "<group>"; };
+		8420C3C6CDA1E43DBD29168B3AC42EC9 /* MachineLearningKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MachineLearningKit-Info.plist"; sourceTree = "<group>"; };
+		85FD492BC41BE694687D7859EBACF60F /* PointerUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerUtilities.swift; path = Sources/Upsurge/PointerUtilities.swift; sourceTree = "<group>"; };
+		8613FEE4807126E16F98FD7A4440ADBD /* DSP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSP.swift; path = Sources/Upsurge/DSP.swift; sourceTree = "<group>"; };
+		86BCA84979B67FAD919BAF5DA6935F69 /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Sources/Upsurge/Hyperbolic.swift; sourceTree = "<group>"; };
+		886E418348313890F742CD5C51552572 /* ComplexArrayRealSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArrayRealSlice.swift; path = Sources/Upsurge/ComplexArrayRealSlice.swift; sourceTree = "<group>"; };
+		8BB3361B9F0F50A192044D4EB4C58122 /* Genome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Genome.swift; path = "MLKit/Classes/Genetic Algorithms/Genome.swift"; sourceTree = "<group>"; };
+		8C69B1749E0A12573132B311484CC818 /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Sources/Upsurge/FFT.swift; sourceTree = "<group>"; };
+		8FEE65D4CD91FEEC90FE1317794A7D1D /* Interval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interval.swift; path = Sources/Upsurge/Interval.swift; sourceTree = "<group>"; };
+		944A5E04650C8CA9E1A942277B4EAA5D /* ValueArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueArray.swift; path = Sources/Upsurge/ValueArray.swift; sourceTree = "<group>"; };
+		9B76EA631106D10CEAAC3BBD4C80694C /* Upsurge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Upsurge-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A17B70FB7CF29253E8D950C11075B041 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Sources/Upsurge/Exponential.swift; sourceTree = "<group>"; };
-		A6703BE841571BFDB98FD89AF7086714 /* BiologicalProcessManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BiologicalProcessManager.swift; path = "MLKit/Classes/Genetic Algorithms/BiologicalProcessManager.swift"; sourceTree = "<group>"; };
+		9E000C09E55910062CCDB4B4CE3A5CB1 /* MatrixSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixSlice.swift; path = Sources/Upsurge/MatrixSlice.swift; sourceTree = "<group>"; };
+		A12B92E0041F7F5B114711204133928A /* Complex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Complex.swift; path = Sources/Upsurge/Complex.swift; sourceTree = "<group>"; };
+		A15CD3290F0B1F092B1F55B614900352 /* MachineLearningKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearningKit-umbrella.h"; sourceTree = "<group>"; };
 		A7808993192BE58741ECB02E139358D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A8B080E76EC410E9EDBD95BC2A094DBD /* ValueArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueArray.swift; path = Sources/Upsurge/ValueArray.swift; sourceTree = "<group>"; };
-		A8C3D90D6AA94897A991D8482375F347 /* MatrixArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixArithmetic.swift; path = Sources/Upsurge/MatrixArithmetic.swift; sourceTree = "<group>"; };
-		AD0741BCC10B56924037B671E1C35672 /* Complex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Complex.swift; path = Sources/Upsurge/Complex.swift; sourceTree = "<group>"; };
+		A94551E2D9782F3C95861C7CE23B1952 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		A9533C0839B9302305526A2638E59C01 /* Layer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layer.swift; path = MLKit/Classes/ANN/Layer.swift; sourceTree = "<group>"; };
+		ACA9BF1522FA901EED03AB62A56FA643 /* PolynomialRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolynomialRegression.swift; path = MLKit/Classes/Regression/PolynomialRegression.swift; sourceTree = "<group>"; };
+		AE3A9BB49FEEE6B4F208AD173AAE8492 /* LassoRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LassoRegression.swift; path = MLKit/Classes/Regression/LassoRegression.swift; sourceTree = "<group>"; };
 		AFD4447A8A141C3DFFF4CE6717444376 /* Pods-Minimalisticism.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Minimalisticism.modulemap"; sourceTree = "<group>"; };
-		B3603EC3E55E3A070A34195AD1C79EC7 /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Sources/Upsurge/Auxiliary.swift; sourceTree = "<group>"; };
+		B28C7C234D7C09B162F10A02BAFAB3E5 /* MachineLearningKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearningKit.debug.xcconfig; sourceTree = "<group>"; };
+		B511E74ACA564E5F0DF5A9B47706AF48 /* MachineLeanringErrorEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MachineLeanringErrorEnum.swift; path = "MLKit/Classes/Helper Classes & Extensions/MachineLeanringErrorEnum.swift"; sourceTree = "<group>"; };
+		BB06DC7975519788BFF133F5109A9C16 /* Upsurge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Upsurge-prefix.pch"; sourceTree = "<group>"; };
 		BDF16224FDD6B5E861056629E18FD4D6 /* Pods_Minimalisticism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Minimalisticism.framework; path = "Pods-Minimalisticism.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0C403F65DC1D352882F52541FEF6773 /* ComplexArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArray.swift; path = Sources/Upsurge/ComplexArray.swift; sourceTree = "<group>"; };
+		C08A00E31D3C9378E06700743E3EDA2B /* MatrixArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixArithmetic.swift; path = Sources/Upsurge/MatrixArithmetic.swift; sourceTree = "<group>"; };
 		C432CC8A2E91A673866B49793737B0C0 /* Pods-Minimalisticism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Minimalisticism.release.xcconfig"; sourceTree = "<group>"; };
-		C6E448F74972C39C54893EF57FCA5993 /* MachineLeanringErrorEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MachineLeanringErrorEnum.swift; path = "MLKit/Classes/Helper Classes & Extensions/MachineLeanringErrorEnum.swift"; sourceTree = "<group>"; };
-		C77525F6AB864A64C86B104DE3C8F771 /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = MLKit/Classes/CSVReader.swift; sourceTree = "<group>"; };
-		CA51FBF8BEDC530ADC780608D9931EB2 /* PolynomialRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolynomialRegression.swift; path = MLKit/Classes/Regression/PolynomialRegression.swift; sourceTree = "<group>"; };
 		CA6E5E1EE6DE9EF04B6FF98C9A2BE432 /* Pods-Minimalisticism-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Minimalisticism-dummy.m"; sourceTree = "<group>"; };
-		D4DABB3E440F46642F2C165DD1F9C0DD /* ComplexArraySlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArraySlice.swift; path = Sources/Upsurge/ComplexArraySlice.swift; sourceTree = "<group>"; };
-		D7B2806F0D2B0DA9BDEAB5E0D1369F54 /* LassoRegression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LassoRegression.swift; path = MLKit/Classes/Regression/LassoRegression.swift; sourceTree = "<group>"; };
+		CCE12C3EE65DE5159784CB8FA9711C4E /* ComplexArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArithmetic.swift; path = Sources/Upsurge/ComplexArithmetic.swift; sourceTree = "<group>"; };
+		CD7A36A02A6B29C6AEEBA43EACE7095B /* InputDataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputDataType.swift; path = MLKit/Classes/ANN/InputDataType.swift; sourceTree = "<group>"; };
+		D36F18C397D23E5F961CC06C8771D21C /* ValueArraySlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueArraySlice.swift; path = Sources/Upsurge/ValueArraySlice.swift; sourceTree = "<group>"; };
+		D471E97A56B87357EE36091AFDB971EC /* Upsurge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Upsurge.debug.xcconfig; sourceTree = "<group>"; };
 		DB40AE85D3244AC103324571062B4580 /* Pods-Minimalisticism-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Minimalisticism-frameworks.sh"; sourceTree = "<group>"; };
-		DFB73CA3CF6229938667A30F9CF74E12 /* InputDataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputDataType.swift; path = MLKit/Classes/ANN/InputDataType.swift; sourceTree = "<group>"; };
+		DCF49099ABFDF58981B6D11D7F3905F0 /* Upsurge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Upsurge.release.xcconfig; sourceTree = "<group>"; };
+		E18BB6C7C05484D5DCE3E2644CE46AE8 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Sources/Upsurge/Exponential.swift; sourceTree = "<group>"; };
 		E644D149B3937E2F6F387445FA7965C0 /* Upsurge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Upsurge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E66D82101C2DB10B8B50468AA92CA4A1 /* QuadraticType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadraticType.swift; path = Sources/Upsurge/QuadraticType.swift; sourceTree = "<group>"; };
-		E9F3E4399D2185EB9DC298E4E4A32ED0 /* MachineLearningKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MachineLearningKit.modulemap; sourceTree = "<group>"; };
-		F4D2F4183561F773425A09379DE65CD1 /* NeuralNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeuralNetwork.swift; path = MLKit/Classes/ANN/NeuralNetwork.swift; sourceTree = "<group>"; };
+		EB71BA01BBA9E7974056326AFFF91FC8 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Sources/Upsurge/Arithmetic.swift; sourceTree = "<group>"; };
+		F2E9CA97398BD0DF7AFA802ACE587648 /* MLKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLKit.h; path = MLKit/Classes/MLKit.h; sourceTree = "<group>"; };
+		F83F28F212D978D1DF821FC45F9CEC13 /* Upsurge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Upsurge-dummy.m"; sourceTree = "<group>"; };
+		F983A33A2FEFC8058DF424E29BE31FCE /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Sources/Upsurge/Sequence.swift; sourceTree = "<group>"; };
 		FC7AE1386B7DD47BBD88837E542F8093 /* Pods-Minimalisticism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Minimalisticism.debug.xcconfig"; sourceTree = "<group>"; };
+		FCBB812FD34A0F43078FB2417DE81D80 /* Upsurge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Upsurge-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9B8CBE34AB261B2FBDBBDDDF8FA78076 /* Frameworks */ = {
+		0BCFBDD82AB43F4206A57F3AA12F4E87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EE0E3A48DED42E89C9F3DAA288AE36 /* Foundation.framework in Frameworks */,
+				234F6C465836DB2C2E5E87B7EC7E69A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,84 +228,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28B72EDCE172B59DEAF38195C70BB46B /* MachineLearningKit */ = {
+		17E81C45E07FF064D68F7CF87535D5B5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				719D2BD50139DC77446A743C99C6DE29 /* ActivationFunctionType.swift */,
-				A6703BE841571BFDB98FD89AF7086714 /* BiologicalProcessManager.swift */,
-				C77525F6AB864A64C86B104DE3C8F771 /* CSVReader.swift */,
-				2CC31D1952DAE110660ECC08854A9A53 /* DataManager.swift */,
-				47ADECF0C30D03660CA800603A18A5E2 /* Extensions.swift */,
-				5D41603BAE82504579BA6FAA1EA8360E /* Genome.swift */,
-				DFB73CA3CF6229938667A30F9CF74E12 /* InputDataType.swift */,
-				2C1D0901DB14A4BADF92E9E6C8AD5CCE /* KMeans.swift */,
-				D7B2806F0D2B0DA9BDEAB5E0D1369F54 /* LassoRegression.swift */,
-				4A292A5E6065BD0C9E673A6E5C1B10C2 /* Layer.swift */,
-				C6E448F74972C39C54893EF57FCA5993 /* MachineLeanringErrorEnum.swift */,
-				823A2FD0C4B9E4710BBB39B5887B9BA2 /* MLKit.h */,
-				F4D2F4183561F773425A09379DE65CD1 /* NeuralNetwork.swift */,
-				CA51FBF8BEDC530ADC780608D9931EB2 /* PolynomialRegression.swift */,
-				9C66625DC6CEE1B9443A6495CDE378BA /* Population.swift */,
-				000B6A5148C4343658A5C758CF644E37 /* RidgeRegression.swift */,
-				69DBE659DA127AC45D7172B0F7F0E6C5 /* SimpleLinearRegression.swift */,
-				FD34988248BDD1C800C70D4EAFEA00B0 /* Support Files */,
+				3F94AB8ABA8E6E6B465F666D423C5215 /* MachineLearningKit */,
+				47F575490F3A84B8F68D4BEAE0DDFB3D /* SwiftLint */,
+				9685FD4E3D6B1877BED4499FDA4D4EEA /* Upsurge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F94AB8ABA8E6E6B465F666D423C5215 /* MachineLearningKit */ = {
+			isa = PBXGroup;
+			children = (
+				6E1F07ED9EC20BECF74B7325EE08B7F3 /* ActivationFunctionType.swift */,
+				4476BB50CEC9B3038ADCC6516761B154 /* BiologicalProcessManager.swift */,
+				608E08A7470896A655DA1141668F5A8B /* CSVReader.swift */,
+				8044366419AB7EFDD9AA76DE51A9BD12 /* DataManager.swift */,
+				4A3969E59AEE8960B286356A51535429 /* Extensions.swift */,
+				8BB3361B9F0F50A192044D4EB4C58122 /* Genome.swift */,
+				CD7A36A02A6B29C6AEEBA43EACE7095B /* InputDataType.swift */,
+				03F5A6B9602623AA0C73B69DB618BBFF /* KMeans.swift */,
+				AE3A9BB49FEEE6B4F208AD173AAE8492 /* LassoRegression.swift */,
+				A9533C0839B9302305526A2638E59C01 /* Layer.swift */,
+				B511E74ACA564E5F0DF5A9B47706AF48 /* MachineLeanringErrorEnum.swift */,
+				F2E9CA97398BD0DF7AFA802ACE587648 /* MLKit.h */,
+				66DB961373655578C5093E563158496E /* NeuralNetwork.swift */,
+				ACA9BF1522FA901EED03AB62A56FA643 /* PolynomialRegression.swift */,
+				5FFC67487BB38DACD95FC8113E4C3C93 /* Population.swift */,
+				81EC0AEF3361A6C4F87E4CEE268C0CEC /* RidgeRegression.swift */,
+				29DFE428686733400CB3F0CFA6B27F2D /* SimpleLinearRegression.swift */,
+				D5A9E2F4FFCECEA0626928FDF96A6339 /* Support Files */,
 			);
 			name = MachineLearningKit;
 			path = MachineLearningKit;
 			sourceTree = "<group>";
 		};
-		5E724E44C4DBF871621E94D007DBDFE6 /* Upsurge */ = {
+		47F575490F3A84B8F68D4BEAE0DDFB3D /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				9C218466DA5ECBA8B2A03114D1345E13 /* 2DTensorSlice.swift */,
-				11159FC56A205DA58AABD5E3BB1104AE /* Arithmetic.swift */,
-				B3603EC3E55E3A070A34195AD1C79EC7 /* Auxiliary.swift */,
-				AD0741BCC10B56924037B671E1C35672 /* Complex.swift */,
-				0DFDE5274521D388D9DC84B4155952BD /* ComplexArithmetic.swift */,
-				C0C403F65DC1D352882F52541FEF6773 /* ComplexArray.swift */,
-				09C7C924C1A4F96BD0EB3580CF224B13 /* ComplexArrayRealSlice.swift */,
-				D4DABB3E440F46642F2C165DD1F9C0DD /* ComplexArraySlice.swift */,
-				5A20DAF4BA4C77BD16AB2E0DD941A080 /* DSP.swift */,
-				A17B70FB7CF29253E8D950C11075B041 /* Exponential.swift */,
-				84E5DA1916E4BE5ACE9BAC15E17AFEA6 /* FFT.swift */,
-				01B1464C70403CE7DA1DD75D55C75836 /* Hyperbolic.swift */,
-				2693104E344A1FD779A8A6C1D40BF1C0 /* Interval.swift */,
-				34477E6543835A402140FCF06840CECE /* LinearOperators.swift */,
-				257727EF3B1D0BB17BF81350A6087AB0 /* LinearType.swift */,
-				1A30C9AABD3E04FEA948BF3BF2900EF8 /* Matrix.swift */,
-				A8C3D90D6AA94897A991D8482375F347 /* MatrixArithmetic.swift */,
-				83B0B5CAAD8343CCE4C09E04AC421E5F /* MatrixSlice.swift */,
-				7D6FC091AFD8EB59B29BB39C98EA7B29 /* PointerUtilities.swift */,
-				E66D82101C2DB10B8B50468AA92CA4A1 /* QuadraticType.swift */,
-				1682E4720B0121A3DBFCAD1D6F93E5FC /* Real.swift */,
-				1B5EC7A8FB3D38E6D022964AC9E4EBEF /* Sequence.swift */,
-				657979A41AD7F59AA77EAC9DBBF629E9 /* Span.swift */,
-				7921CA2A614E6B62D41DFBD577D0EECE /* Tensor.swift */,
-				89485444D578A08C3E18CCD1E43FF799 /* TensorSlice.swift */,
-				508460F523CB718821BD35C8B5C321A6 /* TensorType.swift */,
-				9755F21762091B7BF8109E86C862A99C /* Trigonometric.swift */,
-				03E01D25BD234DAA7F42A029E56CEA5E /* Value.swift */,
-				A8B080E76EC410E9EDBD95BC2A094DBD /* ValueArray.swift */,
-				39E401BD0E51C39D1429865F82CEFEE5 /* ValueArraySlice.swift */,
-				61FE7754CF0138A38532C838686CD5CE /* Support Files */,
+				907B7E522AE5CDFB13598C741A988C0E /* Support Files */,
 			);
-			name = Upsurge;
-			path = Upsurge;
-			sourceTree = "<group>";
-		};
-		61FE7754CF0138A38532C838686CD5CE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				08BCD32C888989BC7866CF37E1C63309 /* Upsurge.modulemap */,
-				74F439F90DAF30A846F1A419AD5FF7A3 /* Upsurge-dummy.m */,
-				280BBBAA4C15CD11178BF59AF82FB16E /* Upsurge-Info.plist */,
-				5298F9EC6067110A7D7D1163D3723A62 /* Upsurge-prefix.pch */,
-				30E7B819DFA0676F86693975DF3D7D39 /* Upsurge-umbrella.h */,
-				65357C7F39F10D85B3942B1BBE49ADE5 /* Upsurge.debug.xcconfig */,
-				6FE4C2937746EED0F9AC7F2F2D45BEEB /* Upsurge.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Upsurge";
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		664D26DB4EFE7BCBE678DF87C20C6FF3 /* iOS */ = {
@@ -298,13 +284,53 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75A5BEE29BCCD738248423E9998EABED /* Pods */ = {
+		907B7E522AE5CDFB13598C741A988C0E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				28B72EDCE172B59DEAF38195C70BB46B /* MachineLearningKit */,
-				5E724E44C4DBF871621E94D007DBDFE6 /* Upsurge */,
+				A94551E2D9782F3C95861C7CE23B1952 /* SwiftLint.debug.xcconfig */,
+				20E0C99ADF1FD84ED4E381FA6FBC2E19 /* SwiftLint.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		9685FD4E3D6B1877BED4499FDA4D4EEA /* Upsurge */ = {
+			isa = PBXGroup;
+			children = (
+				23F8E6E8DF18F649B12C0EBD7E78A267 /* 2DTensorSlice.swift */,
+				EB71BA01BBA9E7974056326AFFF91FC8 /* Arithmetic.swift */,
+				1C0443B6C3EEFEE166A64AB3294F350A /* Auxiliary.swift */,
+				A12B92E0041F7F5B114711204133928A /* Complex.swift */,
+				CCE12C3EE65DE5159784CB8FA9711C4E /* ComplexArithmetic.swift */,
+				12EF3DC26C48F5C9643B5C0C2090C8F4 /* ComplexArray.swift */,
+				886E418348313890F742CD5C51552572 /* ComplexArrayRealSlice.swift */,
+				08BB7E4A55155F702CCD1CFA9A675F48 /* ComplexArraySlice.swift */,
+				8613FEE4807126E16F98FD7A4440ADBD /* DSP.swift */,
+				E18BB6C7C05484D5DCE3E2644CE46AE8 /* Exponential.swift */,
+				8C69B1749E0A12573132B311484CC818 /* FFT.swift */,
+				86BCA84979B67FAD919BAF5DA6935F69 /* Hyperbolic.swift */,
+				8FEE65D4CD91FEEC90FE1317794A7D1D /* Interval.swift */,
+				2BDF05D3E015A7B758179BFBECA10ACD /* LinearOperators.swift */,
+				3CB6678796AE1A1553EBDE998009F52F /* LinearType.swift */,
+				251935DAD5298C7053DB4CB7107CBFAA /* Matrix.swift */,
+				C08A00E31D3C9378E06700743E3EDA2B /* MatrixArithmetic.swift */,
+				9E000C09E55910062CCDB4B4CE3A5CB1 /* MatrixSlice.swift */,
+				85FD492BC41BE694687D7859EBACF60F /* PointerUtilities.swift */,
+				2B9DA95BCE8E8D3A756F9DC692513646 /* QuadraticType.swift */,
+				80F2FC5DE58EFD701D670DFA2165183B /* Real.swift */,
+				F983A33A2FEFC8058DF424E29BE31FCE /* Sequence.swift */,
+				0847F6ACFE6E3A79895739419F859C43 /* Span.swift */,
+				61BF3B37CFAC740C630A837A357A2BC2 /* Tensor.swift */,
+				1F6C8C60C160EF51397A5C2C609167E4 /* TensorSlice.swift */,
+				01953A812FD2A97B714A4B4E380F72FA /* TensorType.swift */,
+				38403A129140A0E10ADDCCB7DD280E78 /* Trigonometric.swift */,
+				231ADDF4ADBD8F007F7CE34CD03068F5 /* Value.swift */,
+				944A5E04650C8CA9E1A942277B4EAA5D /* ValueArray.swift */,
+				D36F18C397D23E5F961CC06C8771D21C /* ValueArraySlice.swift */,
+				E5D8819188735A315FF4E6AC89E2647F /* Support Files */,
+			);
+			name = Upsurge;
+			path = Upsurge;
 			sourceTree = "<group>";
 		};
 		CA0B06CB5C31E50E7490A6BFE49A66DB /* Frameworks */ = {
@@ -321,10 +347,40 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				CA0B06CB5C31E50E7490A6BFE49A66DB /* Frameworks */,
-				75A5BEE29BCCD738248423E9998EABED /* Pods */,
+				17E81C45E07FF064D68F7CF87535D5B5 /* Pods */,
 				F4B2B8343525E4DC4ECA1A2B791C7F5C /* Products */,
 				EC210EE336AE26976A6E73A70C683D89 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D5A9E2F4FFCECEA0626928FDF96A6339 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42E3CC12D2E248A661FAFAA428B36467 /* MachineLearningKit.modulemap */,
+				2FE06FA37DB4F3A0C9B308931C066080 /* MachineLearningKit-dummy.m */,
+				8420C3C6CDA1E43DBD29168B3AC42EC9 /* MachineLearningKit-Info.plist */,
+				114F9C075CF686F6450838FE6383D7B4 /* MachineLearningKit-prefix.pch */,
+				A15CD3290F0B1F092B1F55B614900352 /* MachineLearningKit-umbrella.h */,
+				B28C7C234D7C09B162F10A02BAFAB3E5 /* MachineLearningKit.debug.xcconfig */,
+				09F6F8492936F20E1104E7F30F0BC29B /* MachineLearningKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MachineLearningKit";
+			sourceTree = "<group>";
+		};
+		E5D8819188735A315FF4E6AC89E2647F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F50D869516680C82B18D0EB634404 /* Upsurge.modulemap */,
+				F83F28F212D978D1DF821FC45F9CEC13 /* Upsurge-dummy.m */,
+				FCBB812FD34A0F43078FB2417DE81D80 /* Upsurge-Info.plist */,
+				BB06DC7975519788BFF133F5109A9C16 /* Upsurge-prefix.pch */,
+				9B76EA631106D10CEAAC3BBD4C80694C /* Upsurge-umbrella.h */,
+				D471E97A56B87357EE36091AFDB971EC /* Upsurge.debug.xcconfig */,
+				DCF49099ABFDF58981B6D11D7F3905F0 /* Upsurge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Upsurge";
 			sourceTree = "<group>";
 		};
 		EC210EE336AE26976A6E73A70C683D89 /* Targets Support Files */ = {
@@ -362,32 +418,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD34988248BDD1C800C70D4EAFEA00B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E9F3E4399D2185EB9DC298E4E4A32ED0 /* MachineLearningKit.modulemap */,
-				202CB1CCA98FC4BFFA146F33C96725D7 /* MachineLearningKit-dummy.m */,
-				9269C3D59EDE59FC24B7C9ED05257B71 /* MachineLearningKit-Info.plist */,
-				491BF73975E73D7860283F68FF726943 /* MachineLearningKit-prefix.pch */,
-				97A5CB16A83BBE54C0A74D1B85AD47A0 /* MachineLearningKit-umbrella.h */,
-				200AEFDE0FEDC3B095FD4C39508FE32F /* MachineLearningKit.debug.xcconfig */,
-				3CD45407D20E024AB4EA92B635DF01DB /* MachineLearningKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MachineLearningKit";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B34D54376907632F46C40644AE5310B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D50C56B5E4F6BDC034EDCE1DEACF6C91 /* Pods-Minimalisticism-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		70DA96C5BCEC439E39BFDBB495231183 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,23 +438,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		96A618C5BB6DA34F74C4363B36C5662B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BE189C0AD4B61823E0198F0E66FDED /* Pods-Minimalisticism-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3E951F596EEDDC7AB07E6076E780FED6 /* Pods-Minimalisticism */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A6AB068089A001CBC1FFE3C9BD8BD75 /* Build configuration list for PBXNativeTarget "Pods-Minimalisticism" */;
+			buildConfigurationList = 24C6A5925A9A4D4A627E42E938BD45E4 /* Build configuration list for PBXNativeTarget "Pods-Minimalisticism" */;
 			buildPhases = (
-				3B34D54376907632F46C40644AE5310B /* Headers */,
-				1DDF81B7283AFE3C5281E417362D7F11 /* Sources */,
-				9B8CBE34AB261B2FBDBBDDDF8FA78076 /* Frameworks */,
-				9114328AC0D7F9925F065567B382C7E6 /* Resources */,
+				96A618C5BB6DA34F74C4363B36C5662B /* Headers */,
+				2AFBE7757904880805CDD0B9F7ACBF33 /* Sources */,
+				0BCFBDD82AB43F4206A57F3AA12F4E87 /* Frameworks */,
+				C266AA49AD2248699AB57CA32C97C9E0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				97C3B368B709896C425B41BE35D33B25 /* PBXTargetDependency */,
-				8D51F1E74555FF566DFDED8654D2B8BC /* PBXTargetDependency */,
+				1AACF447B38E38611D68ECDC93A6062A /* PBXTargetDependency */,
+				F5B0823B58A37B0CA686262F6C53E3D7 /* PBXTargetDependency */,
+				42943CC17D2D90F21C89018CB42E365B /* PBXTargetDependency */,
 			);
 			name = "Pods-Minimalisticism";
 			productName = "Pods-Minimalisticism";
@@ -489,6 +531,7 @@
 			targets = (
 				FD146E4EAEF3EC13A46F66D31B949A72 /* MachineLearningKit */,
 				3E951F596EEDDC7AB07E6076E780FED6 /* Pods-Minimalisticism */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 				5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */,
 			);
 		};
@@ -509,7 +552,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9114328AC0D7F9925F065567B382C7E6 /* Resources */ = {
+		C266AA49AD2248699AB57CA32C97C9E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -519,11 +562,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1DDF81B7283AFE3C5281E417362D7F11 /* Sources */ = {
+		2AFBE7757904880805CDD0B9F7ACBF33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABE7C98F14F194733ECE54D38C2F7CF /* Pods-Minimalisticism-dummy.m in Sources */,
+				59779CA76A1E7C1EA5AEA4A9ED281ECF /* Pods-Minimalisticism-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,30 +635,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1AACF447B38E38611D68ECDC93A6062A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MachineLearningKit;
+			target = FD146E4EAEF3EC13A46F66D31B949A72 /* MachineLearningKit */;
+			targetProxy = 6687FE41EEABBCB5D558E8E6180F33E0 /* PBXContainerItemProxy */;
+		};
+		42943CC17D2D90F21C89018CB42E365B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Upsurge;
+			target = 5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */;
+			targetProxy = 406A21E5C46A169E7E593F291622E9CC /* PBXContainerItemProxy */;
+		};
 		59AD1B1BCF18A31D662D569EADC14CA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Upsurge;
 			target = 5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */;
 			targetProxy = F9410C56B936B700793E00FD89AE4A9A /* PBXContainerItemProxy */;
 		};
-		8D51F1E74555FF566DFDED8654D2B8BC /* PBXTargetDependency */ = {
+		F5B0823B58A37B0CA686262F6C53E3D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Upsurge;
-			target = 5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */;
-			targetProxy = 17DD91D3C98E9FFBD4DB94EFB8F01400 /* PBXContainerItemProxy */;
-		};
-		97C3B368B709896C425B41BE35D33B25 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MachineLearningKit;
-			target = FD146E4EAEF3EC13A46F66D31B949A72 /* MachineLearningKit */;
-			targetProxy = 3BDEA06F5D9F35469AEEBA9FFE39F9B5 /* PBXContainerItemProxy */;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = E245D6E9A8FC7D6AD26E9F395A3313FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4B146B94211BCCCAFEECA16024A6D6A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CD45407D20E024AB4EA92B635DF01DB /* MachineLearningKit.release.xcconfig */;
+			baseConfigurationReference = 09F6F8492936F20E1104E7F30F0BC29B /* MachineLearningKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -651,7 +700,7 @@
 		};
 		4BD3173E0A0ACF0ED018F77EE11A5A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65357C7F39F10D85B3942B1BBE49ADE5 /* Upsurge.debug.xcconfig */;
+			baseConfigurationReference = D471E97A56B87357EE36091AFDB971EC /* Upsurge.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -684,42 +733,7 @@
 			};
 			name = Debug;
 		};
-		7D09E9F64926435B5A01CC49735ABE99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 200AEFDE0FEDC3B095FD4C39508FE32F /* MachineLearningKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MachineLearningKit/MachineLearningKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MachineLearningKit/MachineLearningKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MachineLearningKit/MachineLearningKit.modulemap";
-				PRODUCT_MODULE_NAME = MachineLearningKit;
-				PRODUCT_NAME = MachineLearningKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7FC12D5F7AC4B344BA5009A938BC9C99 /* Release */ = {
+		69DAFB9638411E72D268A9FB74E1BFFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C432CC8A2E91A673866B49793737B0C0 /* Pods-Minimalisticism.release.xcconfig */;
 			buildSettings = {
@@ -757,6 +771,58 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6F0305621208201F306E4BD73BA7F445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E0C99ADF1FD84ED4E381FA6FBC2E19 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D09E9F64926435B5A01CC49735ABE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28C7C234D7C09B162F10A02BAFAB3E5 /* MachineLearningKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MachineLearningKit/MachineLearningKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MachineLearningKit/MachineLearningKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MachineLearningKit/MachineLearningKit.modulemap";
+				PRODUCT_MODULE_NAME = MachineLearningKit;
+				PRODUCT_NAME = MachineLearningKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -822,6 +888,22 @@
 			};
 			name = Debug;
 		};
+		A881FCB28916AE81F257BFFD4DFA1CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94551E2D9782F3C95861C7CE23B1952 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -882,7 +964,43 @@
 			};
 			name = Release;
 		};
-		B28A893FC40251BBB337ACDE4B9265C8 /* Debug */ = {
+		BF1F51736EC2BF633543436B01D825A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF49099ABFDF58981B6D11D7F3905F0 /* Upsurge.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Upsurge/Upsurge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Upsurge/Upsurge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Upsurge/Upsurge.modulemap";
+				PRODUCT_MODULE_NAME = Upsurge;
+				PRODUCT_NAME = Upsurge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DADC28B5D8C58D21CC5BAB8D04BB0425 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC7AE1386B7DD47BBD88837E542F8093 /* Pods-Minimalisticism.debug.xcconfig */;
 			buildSettings = {
@@ -920,45 +1038,18 @@
 			};
 			name = Debug;
 		};
-		BF1F51736EC2BF633543436B01D825A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FE4C2937746EED0F9AC7F2F2D45BEEB /* Upsurge.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Upsurge/Upsurge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Upsurge/Upsurge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Upsurge/Upsurge.modulemap";
-				PRODUCT_MODULE_NAME = Upsurge;
-				PRODUCT_NAME = Upsurge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		24C6A5925A9A4D4A627E42E938BD45E4 /* Build configuration list for PBXNativeTarget "Pods-Minimalisticism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC28B5D8C58D21CC5BAB8D04BB0425 /* Debug */,
+				69DAFB9638411E72D268A9FB74E1BFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -977,11 +1068,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A6AB068089A001CBC1FFE3C9BD8BD75 /* Build configuration list for PBXNativeTarget "Pods-Minimalisticism" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B28A893FC40251BBB337ACDE4B9265C8 /* Debug */,
-				7FC12D5F7AC4B344BA5009A938BC9C99 /* Release */,
+				A881FCB28916AE81F257BFFD4DFA1CB8 /* Debug */,
+				6F0305621208201F306E4BD73BA7F445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
