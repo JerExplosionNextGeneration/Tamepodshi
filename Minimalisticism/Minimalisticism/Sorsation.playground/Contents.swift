@@ -9,14 +9,47 @@ class SorsationViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .cyan
         
+   // genericInsertionality(unsorted: <#T##[Comparable]#>, by: <#T##(Comparable, Comparable) -> Bool#>) //
         insertionality(unsorted: &arrayForExperiment)
         selectionSort(intArray: arrayForExperiment)
     }
 }
 
-
-func insertionality(unsorted: inout[Int]) -> [Int] {
+private func genericInsertionality<T: Comparable>(unsorted: [T], by comparison: (T, T) -> Bool) -> [T] {
+    var unsorted = unsorted
     
+    for q in 0..<unsorted.count {
+
+    }
+    return Array<T>.init()
+}
+
+//func insertionSort<T: Comparable>(_ input: [T], by comparison: (T, T) -> Bool) -> [T]
+//{
+//    var items = input
+//
+//    for index in 1..<items.count
+//    {
+//        let value = items[index]
+//        var position = index
+//
+//        while position > 0 && comparison(items[position - 1], value) {
+//            items[position] = items[position - 1]
+//            position -= 1
+//        }
+//        items[position] = value
+//    }
+//    return items
+//}
+//
+//var sorted = insertionSort([70, 36, 40, 95, 22, 55, 26], by: >)
+//print(sorted)
+//
+//var names = insertionSort(["Marvin", "Arthur", "Zaphod", "Trillian", "Eddie"], by: { $0 < $1 })
+//print(names)
+
+
+private func insertionality(unsorted: inout[Int]) -> [Int] {
     guard unsorted.count > 1 else { return unsorted }
     
     for index1 in 1..<unsorted.count {
@@ -28,7 +61,6 @@ func insertionality(unsorted: inout[Int]) -> [Int] {
             }
         }
     }
-    
     let sorted = unsorted
     print(sorted)
   
