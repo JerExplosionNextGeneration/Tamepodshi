@@ -19,6 +19,7 @@
 		8F5D373025A15B110047F650 /* WebServiceXCT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D372F25A15B110047F650 /* WebServiceXCT.swift */; };
 		8F5D373425A15BA20047F650 /* SupWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D373325A15BA20047F650 /* SupWebService.swift */; };
 		8F5D373825A15CA80047F650 /* SUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D373725A15CA80047F650 /* SUpRequestModel.swift */; };
+		8F8902F725A63AAC0061EE14 /* UrlProtocolClassOverridden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8902F625A63AAC0061EE14 /* UrlProtocolClassOverridden.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8F5D372F25A15B110047F650 /* WebServiceXCT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceXCT.swift; sourceTree = "<group>"; };
 		8F5D373325A15BA20047F650 /* SupWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupWebService.swift; sourceTree = "<group>"; };
 		8F5D373725A15CA80047F650 /* SUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUpRequestModel.swift; sourceTree = "<group>"; };
+		8F8902F625A63AAC0061EE14 /* UrlProtocolClassOverridden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolClassOverridden.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				8F43E69C25A2AAED00A9AEBB /* UselessForNow */,
 				8F43E69725A2AAD600A9AEBB /* Networking */,
 				8F5D372725A15AD30047F650 /* Info.plist */,
+				8F8902F625A63AAC0061EE14 /* UrlProtocolClassOverridden.swift */,
 			);
 			path = NSDrivenByXCTTests;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F5D373025A15B110047F650 /* WebServiceXCT.swift in Sources */,
+				8F8902F725A63AAC0061EE14 /* UrlProtocolClassOverridden.swift in Sources */,
 				8F5D372625A15AD30047F650 /* NSDrivenByXCTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

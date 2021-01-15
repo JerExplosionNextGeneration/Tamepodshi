@@ -20,13 +20,16 @@ class WebServiceXCT: XCTestCase {
     
     func testingWSwithSuccessfulResponse() throws {
         // Arrange
-        let sut = SupWebService.init(urlString: "https://github.com/JerExplosion")
+        let sut = SupWebService.init(urlString: "http://appsdeveloperblog.com:8080/signup-mock-service/users")
+        
+//        let newSut = SupWebService.init(urlString: <#T##String#>, mockUrlSession: <#T##URLSession#>)
+        
         let sUpRequestModel = SUpRequestModel(first: "O", last: "S", email: "os.os", passcode: "os")
         let expectation = self.expectation(description: "sUp web service expectation")
         // Act
         sut.sUp(with: sUpRequestModel) { (responseModel, error) in
             // Assert
-            XCTAssertEqual(responseModel?.status, "oK")
+            XCTAssertEqual(responseModel?.status, "ok") // or "oK"
             expectation.fulfill()
         }
         self.wait(for: [expectation], timeout: 5.3)

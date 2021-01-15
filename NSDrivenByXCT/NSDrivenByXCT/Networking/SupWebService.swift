@@ -17,7 +17,7 @@ class SupWebService {
         self.mockUrlSession = mockUrlSession
     }
     
-    func sUp(with requestModel: SUpRequestModel, completionHandler: @escaping (SUpResponseModel?, SUpErrors) -> Void) {
+    func sUp(with requestModel: SUpRequestModel, completionHandler: @escaping (SUpResponseModel?, SUpErrors?) -> Void) {
         guard let urlObj = URL(string: urlString) else {
             
             return
@@ -29,7 +29,11 @@ class SupWebService {
         request.httpBody = try? JSONEncoder().encode(requestModel)
         
         let dTask = URLSession.shared.dataTask(with: request) { (data, response, erro) in
-            
+            if let data = data, let sUpResponseModel = try? JSONDecoder().decode(SUpResponseModel.self, from: data) {
+                completionHandler(sUpResponseModel, nil)
+            } else {
+                 
+            }
         }
         dTask.resume()
     }
